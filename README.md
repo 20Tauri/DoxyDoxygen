@@ -24,16 +24,15 @@ The command to do so is the following:
 
 ## Usage
 
-Insert comment introducer (ex: `/**` for C++, `##` for python), then <kbd>Enter</kbd> would automatically insert the corresponding documentation.
+### Create a docmuentation block
+
+Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> would automatically insert the corresponding documentation.
+
 There are no keyboard shortcuts to memorise.
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif)
 
-As you can see, pressing <kbd>Enter</kbd> consecutively would automatically continue the comment.
-
-When a definition is below the block, DoxyDoxygen detect it and prefill the documentation block.
-
-For example, a function is trivial to document:
+Another example, now using C++:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif)
 
@@ -45,6 +44,8 @@ Of course, class templated or not are also supported
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif)
 
+### Rewrap and reparse an existing documentation
+
 The wrap the comment, press <kbd>Alt</kbd>+<kbd>Q</kbd>.
 DoxyDoxygen know the Doxygen commands and will NOT put unproper line break.
 
@@ -52,6 +53,14 @@ Better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, reparse the documented object a
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif)
 
-To easy navigation, Press <kbd>EOL</kbd> on end-of-line, will go to the next column.
+### Extend a documentation
 
-As you have probably already seen, DoxyDoxygen allows autocompletion of [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). You can get a list of them by pressing <kbd>@</kbd> and a list will pop up automatically.
+DoxyDoxygen allows autocompletion of [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). You can get a list of them by pressing <kbd>@</kbd> and a list will pop up automatically.
+
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif)
+
+As you can see, pressing <kbd>Enter</kbd> consecutively would automatically continue the comment.
+
+### Navigate in documentation
+
+To easy navigation, pressing <kbd>EOL</kbd> on end-of-line, will go to the next column.
