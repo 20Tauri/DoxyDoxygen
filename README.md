@@ -4,7 +4,7 @@ Doxy.Doxygen is a SublimeText plug-in that allows you to auto-complete documenta
 
 It was inspired by:
    - [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
-   - [DoxyDoc][https://github.com/Rapptz/DoxyDoc]
+   - [DoxyDoc](https://github.com/Rapptz/DoxyDoc)
 
 It's designed to provided a large support of languages (specialy c++ or non '/*' commented languages)
 
@@ -12,7 +12,7 @@ It's designed to provided a large support of languages (specialy c++ or non '/*'
 
 The easy way to install this is through Package Control.
 
-- Press Ctrl + Shift + P
+- Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 - Type "install" without quotes to get to Package Control: Install Package
 - Type "DoxyDoxygen" without quotes and you'll see this package.
 
@@ -52,6 +52,6 @@ Better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, reparse the documented object a
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif)
 
-To easy navigation, Press <bkd>EOL</bkd> on end-of-line, will go to the next column.
+To easy navigation, Press <kbd>EOL</kbd> on end-of-line, will go to the next column.
 
 As you have probably already seen, DoxyDoxygen allows autocompletion of [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). You can get a list of them by pressing <kbd>@</kbd> and a list will pop up automatically.
