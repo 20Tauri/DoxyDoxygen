@@ -20,7 +20,9 @@ Another way to install this is through running `git clone` of this repository in
 
 The command to do so is the following:
 
+```bash
     git clone https://github.com/20Tauri/DoxyDoxygen.git DoxyDoxygen
+```
 
 ## Usage
 
