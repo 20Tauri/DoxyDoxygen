@@ -1,6 +1,6 @@
 ## DoxyDoxygen
 
-Doxy.Doxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using Doxygen.
+DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using Doxygen.
 
 It was inspired by:
    - [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
@@ -24,11 +24,11 @@ The command to do so is the following:
 
 ## Usage
 
-### Create a docmuentation block
+### Create a documentation block
 
 Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> would automatically insert the corresponding documentation.
 
-There are no keyboard shortcuts to memorise.
+There are no keyboard shortcuts to memorize.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif)
 
@@ -40,14 +40,14 @@ If a function has a template parameter, a `@tparam` property is automatically ad
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/template.gif)
 
-Of course, class templated or not are also supported
+Of course, class (with template or not) are also supported
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif)
 
 ### Rewrap and reparse an existing documentation
 
 The wrap the comment, press <kbd>Alt</kbd>+<kbd>Q</kbd>.
-DoxyDoxygen know the Doxygen commands and will NOT put unproper line break.
+DoxyDoxygen know the Doxygen commands and will NOT put invalid line break.
 
 Better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, reparse the documented object and may detect missing/renamed/deleted parameters field
 
@@ -55,7 +55,7 @@ Better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, reparse the documented object a
 
 ### Extend a documentation
 
-DoxyDoxygen allows autocompletion of [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). You can get a list of them by pressing <kbd>@</kbd> and a list will pop up automatically.
+DoxyDoxygen allows auto-completion of [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). You can get a list of them by pressing <kbd>@</kbd> and a list will pop up automatically.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif)
 
@@ -64,3 +64,4 @@ As you can see, pressing <kbd>Enter</kbd> consecutively would automatically cont
 ### Navigate in documentation
 
 To easy navigation, pressing <kbd>EOL</kbd> on end-of-line, will go to the next column.
+
