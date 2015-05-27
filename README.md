@@ -19,8 +19,7 @@ The easy way to install this is through Package Control.
 Another way to install this is through running `git clone` of this repository in your package directory.
 
 The command to do so is the following:
-
-```Shell
+```sh
     git clone https://github.com/20Tauri/DoxyDoxygen.git DoxyDoxygen
 ```
 
