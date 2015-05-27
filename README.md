@@ -64,5 +64,6 @@ As you can see, pressing <kbd>Enter</kbd> consecutively would automatically cont
 
 ### Navigate in documentation
 
-To easy navigation, pressing <kbd>EOL</kbd> on end-of-line, will go to the next column.
+To ease navigation, pressing <kbd>EOL</kbd> on end-of-line, will go to the next column.
 
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/eol.gif)
