@@ -1,13 +1,3 @@
 *.pyc
-tests/
 __pycache__/
-*.json___
-DoxyDoxygen_test.py
-Doxyfile
 Private/
-
-messages
-messages*
-Main*
-Default*
-Doxy*
