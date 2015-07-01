@@ -18,7 +18,7 @@ The easy way to install this is through Package Control.
 
 To install it manually:
    - Click the ```Preferences > Browse Packages... menu``` to open package directory
-   - Download Package [DoxyDoxygen.sublime-package](http://20tauri.free.fr/DoxyDoxygen/lastest/DoxyDoxygen.sublime-package)
+   - Download Package DoxyDoxygen.sublime-package for [(ST2)](http://20tauri.free.fr/DoxyDoxygen/lastest/ST2/DoxyDoxygen.sublime-package) or [(ST3)](http://20tauri.free.fr/DoxyDoxygen/lastest/ST3/DoxyDoxygen.sublime-package)
    - Copy it into the package directory
    - Restart Sublime Text
 
