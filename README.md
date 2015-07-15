@@ -5,9 +5,14 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org)
    - [YuiDoc](http://yui.github.io/yuidoc)
+   - [PhpDocumentator](http://www.phpdoc.org/docs/latest/index.html)
 
-It's designed to provided a large support of languages (specially c++ or non `/*` commented languages)
-
+It's designed to provide:
+   - a large support of languages (specially c++ or non `/*` commented languages).
+   - a deep language comprehension (examine function body to determine parameters types)
+   - an easy and powerfull documenting style configuration
+   - capacity to update existing comments
+   - ...
 
 ## Usage
 
@@ -23,7 +28,7 @@ Types are automaticly deduce from code:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/javascript.gif)
 
-And hard to parse languages are well supported:
+Even hard to parse languages are well supported:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif)
 
@@ -31,30 +36,33 @@ If a function has a template parameter, a `@tparam` property is automatically ad
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/template.gif)
 
-Of course, class (with template or not) are also supported
+And, of course, class (with template or not) are also supported
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif)
 
 ### Wrap and update an existing documentation
 
 To wrap comment, press <kbd>Alt</kbd>+<kbd>Q</kbd>.
-DoxyDoxygen know the Doxygen commands and will NOT put invalid line break.
+And, as DoxyDoxygen know the Doxygen commands, NO invalid lines break will be inserted.
 
-Better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented object and may detect missing/renamed/deleted parameters fields:
+Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented object and detect missing/renamed/deleted parameters fields:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif)
 
 ### Extend a documentation
 
 DoxyDoxygen allows auto-completion of
-    - [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
-    - [JsDoc commands](http://usejsdoc.org/).
+   - [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
+   - [JavaDoc commands](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
+   - [JsDoc commands](http://usejsdoc.org/).
+   - [YuiDoc commands](http://yui.github.io/yuidoc)
+   - [PhpDocumentator commands](http://www.phpdoc.org/docs/latest/index.html)
 
-You can get a list of them by pressing <kbd>@</kbd> and a list will pop up automatically.
+You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif)
 
-As you can see, pressing <kbd>Enter</kbd> consecutively would automatically continue the comment.
+As you can see on previous example, pressing <kbd>Enter</kbd> consecutively would automatically continue the comment.
 
 ### Navigate in documentation
 
@@ -64,9 +72,9 @@ To ease navigation, pressing <kbd>EOL</kbd> on end-of-line, will go to the next 
 
 ### Fold / Unfold comments
 
-You can also Fold, Unfold all comments blocks, from the command palette or using Sublime Text standard shortcuts:
-   -  <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
-   -  <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
+You can also Fold / Unfold comments blocks, from the command palette or using Sublime Text standard shortcuts:
+   - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
+   - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif)
 
@@ -75,12 +83,13 @@ You can also Fold, Unfold all comments blocks, from the command palette or using
 Currently, following languages are supported:
    - C
    - C++
-   - Python
    - Doxygen
    - Java
    - JavaScript
+   - Php
+   - Python
    - Apex (using Java syntax)
-
+   
 And those languages cannot be parsed, but re-wrapped, continued...
    - ActionScript
    - Apex
@@ -90,7 +99,6 @@ And those languages cannot be parsed, but re-wrapped, continued...
    - Lua
    - Objective C
    - Objective C++
-   - Php
    - Rust
    - Scala
    - TypeScript
