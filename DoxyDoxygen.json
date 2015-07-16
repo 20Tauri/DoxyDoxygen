@@ -7,9 +7,9 @@
             "name": "DoxyDoxygen",
             "description": "Make commenting easier.",
             "author": "20Tauri",
-            "homepage": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/packages/",
+            "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
-            "buy": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/packages/#page_buy",
+            "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
             "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
