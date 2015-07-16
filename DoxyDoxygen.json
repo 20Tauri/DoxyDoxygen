@@ -7,9 +7,9 @@
             "name": "DoxyDoxygen",
             "description": "Make commenting easier.",
             "author": "20Tauri",
-            "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
+            "homepage": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/packages/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
-            "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
+            "buy": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/packages/#page_buy",
             "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
@@ -24,14 +24,14 @@
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
                     "version": "0.8.2",
-                    "url": "http://20tauri.free.fr/DoxyDoxygen/0.8.2/ST2/DoxyDoxygen.sublime-package",
+                    "url": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/packages/0.8.2/ST2/DoxyDoxygen.sublime-package",
                     "date": "2015-07-16 00:55:20"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
                     "version": "0.8.2",
-                    "url": "http://20tauri.free.fr/DoxyDoxygen/0.8.2/ST3/DoxyDoxygen.sublime-package",
+                    "url": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/packages/0.8.2/ST3/DoxyDoxygen.sublime-package",
                     "date": "2015-07-16 00:55:20"
                 }
             ]
