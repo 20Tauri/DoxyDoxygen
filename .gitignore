@@ -1,4 +1,5 @@
 *.pyc
+*.ppk
 __pycache__/
 Private/
 DOWNLOAD.md
