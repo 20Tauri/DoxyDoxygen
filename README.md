@@ -5,7 +5,7 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org)
    - [YuiDoc](http://yui.github.io/yuidoc)
-   - [PhpDocumentator](http://www.phpdoc.org/docs/latest/index.html)
+   - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
 
 It's designed to provide:
    - a large support of languages (specially c++ or non `/*` commented languages).
@@ -56,7 +56,7 @@ DoxyDoxygen allows auto-completion of
    - [JavaDoc commands](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc commands](http://usejsdoc.org/).
    - [YuiDoc commands](http://yui.github.io/yuidoc)
-   - [PhpDocumentator commands](http://www.phpdoc.org/docs/latest/index.html)
+   - [PhpDocumentor commands](http://www.phpdoc.org/docs/latest/index.html)
 
 You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
 
