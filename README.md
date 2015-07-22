@@ -4,8 +4,8 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
    - [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org)
-   - [YuiDoc](http://yui.github.io/yuidoc)
    - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
+   - [YuiDoc](http://yui.github.io/yuidoc)
 
 It's designed to provide:
    - a large support of languages (specially c++ or non `/*` commented languages).
@@ -20,7 +20,7 @@ It's designed to provide:
 
 Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> would automatically insert the corresponding documentation.
 
-There are no keyboard shortcuts to memorize.
+There are no keyboard shortcuts to memorize. But, to be more efficicent, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> after function definition.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif)
 
@@ -51,12 +51,12 @@ Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented obje
 
 ### Extend a documentation
 
-DoxyDoxygen allows auto-completion of
-   - [Doxygen commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
-   - [JavaDoc commands](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
-   - [JsDoc commands](http://usejsdoc.org/).
-   - [YuiDoc commands](http://yui.github.io/yuidoc)
-   - [PhpDocumentor commands](http://www.phpdoc.org/docs/latest/index.html)
+DoxyDoxygen allows auto-completion. Available commands:
+   - [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
+   - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
+   - [JsDoc](http://usejsdoc.org/).
+   - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
+   - [YuiDoc](http://yui.github.io/yuidoc)
 
 You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
 
@@ -86,7 +86,7 @@ Currently, following languages are supported:
    - Doxygen
    - Java
    - JavaScript
-   - Php
+   - Php (without function body inspection)
    - Python
    - Apex (using Java syntax)
    
