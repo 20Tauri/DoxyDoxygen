@@ -2,7 +2,7 @@
 
 DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using:
    - [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
-   - [Google Closure Compiler][https://developers.google.com/closure/compiler/]
+   - [Google Closure Compiler](https://developers.google.com/closure/compiler/)
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org)
    - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
@@ -54,7 +54,7 @@ Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented obje
 
 DoxyDoxygen allows auto-completion. Available commands:
    - [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
-   - [Google Closure Compiler][https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1]
+   - [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org/).
    - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
