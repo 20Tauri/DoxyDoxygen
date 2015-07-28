@@ -5,7 +5,7 @@
     "packages": [
         {
             "name": "DoxyDoxygen",
-            "description": "Your new commenting assistant. Supports Doxygen, JsDoc3, PhpDocumentor... C, C++14, Java, JavaScript (ES6), Php, Python...",
+            "description": "Make commenting easier. Supports Doxygen, JsDoc3, PhpDocumentor...",
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
