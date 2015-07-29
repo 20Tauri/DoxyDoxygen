@@ -1,5 +1,7 @@
 ## DoxyDoxygen
 
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
+
 DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using:
    - [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
    - [Google Closure Compiler](https://developers.google.com/closure/compiler/)
