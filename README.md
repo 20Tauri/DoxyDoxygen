@@ -11,10 +11,10 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
    - [YuiDoc](http://yui.github.io/yuidoc)
 
 It's designed to provide:
-   - a large support of languages (specially c++ or non `/*` commented languages).
-   - a deep language comprehension (examine function body to determine parameters types)
-   - an easy and powerfull documenting style configuration
-   - capacity to update existing comments
+   - a large support of languages (specially c++ or non `/*` commented languages),
+   - a deep language comprehension (examine function body to determine parameters types),
+   - an easy and powerfull documenting style configuration,
+   - capacity to update existing comments,
    - ...
 
 ## Usage
