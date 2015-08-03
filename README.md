@@ -4,7 +4,7 @@
 
 DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using:
    - [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
-   - [Google Closure Compiler](https://developers.google.com/closure/compiler/)
+   - [Google Closure](https://developers.google.com/closure/compiler/)
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org)
    - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
@@ -90,7 +90,7 @@ Currently, following languages are supported:
    - Doxygen
    - Java
    - JavaScript
-   - Php (without function body inspection)
+   - Php (now, with body inspection !)
    - Python
    - Apex (using Java syntax)
    - Groovy (using Java syntax)

@@ -10,7 +10,7 @@
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
             "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
-            "readme": "http://20tauri.free.fr/DoxyDoxygen/README.md",
+            "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
                 "documentation",
@@ -23,16 +23,16 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.9.5",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.9.5/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2015-07-30 20:17:35"
+                    "version": "0.10.0",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.10.0/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2015-08-03 10:55:22"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
-                    "version": "0.9.5",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.9.5/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2015-07-30 20:17:35"
+                    "version": "0.10.0",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.10.0/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2015-08-03 10:55:22"
                 }
             ]
         }
