@@ -8,6 +8,7 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org)
    - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
+   - [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm)
    - [YuiDoc](http://yui.github.io/yuidoc)
 
 It's designed to provide:
@@ -60,6 +61,7 @@ DoxyDoxygen allows auto-completion. Available commands:
    - [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
    - [JsDoc](http://usejsdoc.org/).
    - [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
+   - [XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
    - [YuiDoc](http://yui.github.io/yuidoc)
 
 You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
@@ -87,6 +89,7 @@ You can also Fold / Unfold comments blocks, from the command palette or using Su
 Currently, following languages are supported:
    - C
    - C++
+   - C# 
    - Doxygen
    - Java
    - JavaScript
