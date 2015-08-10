@@ -100,7 +100,6 @@ Currently, following languages are supported:
 
 And those languages cannot be parsed, but re-wrapped, continued...
    - ActionScript
-   - Apex
    - Coffee
    - Haxe
    - Lua
