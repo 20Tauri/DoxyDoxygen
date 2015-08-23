@@ -38,7 +38,7 @@
         },
         {
             "name": "DoxyDoxygen (evolution)",
-            "description": "Have the lastest DoxyDoxygen evolutions before everybody",
+            "description": "Get the lastest DoxyDoxygen evolutions before everybody and help to improve it.",
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
@@ -56,16 +56,16 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.13.1",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.1/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2015-08-19 20:07:04"
+                    "version": "0.13.2",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.2/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2015-08-23 17:42:13"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
-                    "version": "0.13.1",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.1/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2015-08-19 20:07:04"
+                    "version": "0.13.2",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.2/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2015-08-23 17:42:13"
                 }
             ]
         }

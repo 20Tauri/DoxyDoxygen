@@ -50,6 +50,6 @@ Haxe                            | :cloud:            | :white_check_mark: (actio
 Lua                             | :cloud:            | :x:
 Objective C                     | :cloud:            | :white_check_mark: (poor ?)
 Objective C++                   | :cloud:            | :cloud:
-Rust                            | :cloud:            | :white_check_mark:
+Rust                            | :white_check_mark: | :white_check_mark:
 Scala                           | :cloud:            | :x:
 TypeScript                      | :cloud:            | :white_check_mark:
