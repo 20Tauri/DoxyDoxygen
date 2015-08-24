@@ -53,3 +53,4 @@ Objective C++                   | :cloud:            | :cloud:
 Rust                            | :white_check_mark: | :white_check_mark:
 Scala                           | :cloud:            | :x:
 TypeScript                      | :cloud:            | :white_check_mark:
+Swift                           | :cloud: (poor)     | :x:
