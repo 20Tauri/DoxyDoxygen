@@ -32,7 +32,7 @@ Opened Issues (10-aug-2015)     | 0                  | 86
 
 ### Supported Languages
 
-                                | DoxyDoxygen        | DocBlockR
+                                | [DoxyDoxygen](https://github.com/20Tauri/DoxyDoxygen) | DocBlockR
 ------------------------------- | ------------------ | ------------------
 C                               | :white_check_mark: | :white_check_mark: (official but poor)
 C++                             | :white_check_mark: | :white_check_mark: (official but poor)

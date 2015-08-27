@@ -46,7 +46,7 @@ And, of course, class (with template or not) are also supported
 
 ### Wrap and update an existing documentation
 
-To wrap comment, press <kbd>Alt</kbd>+<kbd>Q</kbd>.
+To wrap comment, press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X).
 And, as DoxyDoxygen know the Doxygen commands, NO invalid lines break will be inserted.
 
 Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented object and detect missing/renamed/deleted parameters fields:
@@ -72,15 +72,21 @@ As you can see on previous example, pressing <kbd>Enter</kbd> consecutively woul
 
 ### Navigate in documentation
 
-To ease navigation, pressing <kbd>EOL</kbd> on end-of-line, will go to the next column.
+To ease navigation, pressing <kbd>EOL</kbd> (<kbd>Super</kbd>+<kbd>Right</kbd> on OS/X) on end-of-line, will go to the next column.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/eol.gif)
 
 ### Fold / Unfold comments
 
-You can also Fold / Unfold comments blocks, from the command palette or using Sublime Text standard shortcuts:
+You can also Fold / Unfold comments blocks, from the command palette or using Sublime Text standard shortcuts.
+
+On Windows and Linux:
    - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
    - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
+
+On OS/X:
+   - <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd>: Fold
+   - <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif)
 
