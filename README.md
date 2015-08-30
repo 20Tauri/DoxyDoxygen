@@ -3,6 +3,7 @@
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
 
 DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using:
+
 * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
 * [Google Closure](https://developers.google.com/closure/compiler/)
 * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
@@ -12,6 +13,7 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
 * [YuiDoc](http://yui.github.io/yuidoc)
 
 It's designed to provide:
+
 * a large support of languages (specially c++ or non `/*` commented languages),
 * a deep language comprehension (examine function body to determine parameters types),
 * an easy and powerfull documenting style configuration,
@@ -56,6 +58,7 @@ Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented obje
 ### Extend a documentation
 
 DoxyDoxygen allows auto-completion. Available commands:
+
 * [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
 * [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
 * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
@@ -81,10 +84,12 @@ To ease navigation, pressing <kbd>EOL</kbd> (<kbd>Super</kbd>+<kbd>Right</kbd> o
 You can also Fold / Unfold comments blocks, from the command palette or using Sublime Text standard shortcuts.
 
 On Windows and Linux:
+
 * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
 * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
 
 On OS/X:
+
 * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd>: Fold
 * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
 
@@ -93,6 +98,7 @@ On OS/X:
 ## Supported languages
 
 Currently, following languages are supported:
+
 * C
 * C++
 * C# 
@@ -107,6 +113,7 @@ Currently, following languages are supported:
 * Groovy (using Java syntax)
 
 And those languages cannot be parsed, but re-wrapped, continued...
+
 * ActionScript
 * Coffee
 * Haxe
