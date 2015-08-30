@@ -101,8 +101,8 @@ Currently, following languages are supported:
 * JavaScript
 * Php
 * Python
-* Rust
-* Swift
+* Rust (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "rust" package)
+* Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
 * Apex (using Java syntax)
 * Groovy (using Java syntax)
 
