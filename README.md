@@ -4,21 +4,21 @@
 
 DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using:
 
-* [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
-* [Google Closure](https://developers.google.com/closure/compiler/)
-* [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
-* [JsDoc](http://usejsdoc.org)
-* [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
-* [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm)
-* [YuiDoc](http://yui.github.io/yuidoc)
+   * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+   * [Google Closure](https://developers.google.com/closure/compiler/)
+   * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
+   * [JsDoc](http://usejsdoc.org)
+   * [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
+   * [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm)
+   * [YuiDoc](http://yui.github.io/yuidoc)
 
 It's designed to provide:
 
-* a large support of languages (specially c++ or non `/*` commented languages),
-* a deep language comprehension (examine function body to determine parameters types),
-* an easy and powerfull documenting style configuration,
-* capacity to update existing comments,
-* ...
+   * a large support of languages (specially c++ or non `/*` commented languages),
+   * a deep language comprehension (examine function body to determine parameters types),
+   * an easy and powerfull documenting style configuration,
+   * capacity to update existing comments,
+   * ...
 
 ## Usage
 
@@ -59,13 +59,13 @@ Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented obje
 
 DoxyDoxygen allows auto-completion. Available commands:
 
-* [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
-* [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
-* [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
-* [JsDoc](http://usejsdoc.org/).
-* [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
-* [XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
-* [YuiDoc](http://yui.github.io/yuidoc)
+   * [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
+   * [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
+   * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
+   * [JsDoc](http://usejsdoc.org/).
+   * [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
+   * [XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
+   * [YuiDoc](http://yui.github.io/yuidoc)
 
 You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
 
@@ -85,13 +85,13 @@ You can also Fold / Unfold comments blocks, from the command palette or using Su
 
 On Windows and Linux:
 
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
+   * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
+   * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
 
 On OS/X:
 
-* <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd>: Fold
-* <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
+   * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd>: Fold
+   * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif)
 
@@ -99,26 +99,26 @@ On OS/X:
 
 Currently, following languages are supported:
 
-* C
-* C++
-* C# 
-* Doxygen
-* Java
-* JavaScript
-* Php
-* Python
-* Rust (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "rust" package)
-* Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
-* Apex (using Java syntax)
-* Groovy (using Java syntax)
+   * C
+   * C++
+   * C# 
+   * Doxygen
+   * Java
+   * JavaScript
+   * Php
+   * Python
+   * Rust (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "rust" package)
+   * Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
+   * Apex (using Java syntax)
+   * Groovy (using Java syntax)
 
 And those languages cannot be parsed, but re-wrapped, continued...
 
-* ActionScript
-* Coffee
-* Haxe
-* Lua
-* Objective C
-* Objective C++
-* Scala
-* TypeScript
+   * ActionScript
+   * Coffee
+   * Haxe
+   * Lua
+   * Objective C
+   * Objective C++
+   * Scala
+   * TypeScript
