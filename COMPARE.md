@@ -6,14 +6,14 @@
 Functions Documentation         | :white_check_mark: | :white_check_mark: (creation only)
 Class Documentation             | :white_check_mark: | :white_check_mark: (creation only)
 Variable Documentation          | :white_check_mark: | :white_check_mark: (creation only)
-Type detection                  | :white_check_mark: (body inspection) | :cloud: (partial, default value or name based)
+Type Detection                  | :white_check_mark: (body inspection) | :cloud: (partial, default value or name based)
 Update Documentation            | :white_check_mark: | :x:
 One Key Comment Creation        | :white_check_mark: | :x:
 Snippets                        | :white_check_mark: | :white_check_mark:
 Comments Continuation           | :white_check_mark: | :white_check_mark:
 Comments Folding                | :white_check_mark: | :x:
 Comments Rewrap                 | :white_check_mark: | :cloud: (basic)
-Configurable Layout             | :white_check_mark: | :cloud: (partial)
+Configurable Layout             | :white_check_mark: | :cloud: (limited)
 Opened Issues (10-aug-2015)     | 0                  | 86
 
 
@@ -43,8 +43,8 @@ Java                            | :white_check_mark: | :white_check_mark:
 JavaScript                      | :white_check_mark: | :white_check_mark:
 Php                             | :white_check_mark: | :white_check_mark:
 Python                          | :white_check_mark: | :x:
-Apex                            | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
 ActionScript                    | :cloud:            | :white_check_mark:
+Apex                            | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
 Coffee                          | :cloud:            | :white_check_mark:
 Haxe                            | :cloud:            | :white_check_mark: (actionScript based)
 Lua                             | :cloud:            | :x:
@@ -52,5 +52,5 @@ Objective C                     | :cloud:            | :white_check_mark: (poor 
 Objective C++                   | :cloud:            | :cloud:
 Rust                            | :white_check_mark: | :white_check_mark:
 Scala                           | :cloud:            | :x:
+Swift                           | :white_check_mark: | :x:
 TypeScript                      | :cloud:            | :white_check_mark:
-Swift                           | :cloud: (poor)     | :x:
