@@ -10,7 +10,7 @@
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
             "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
-            "readme": "http://20tauri.free.fr/DoxyDoxygen/README.md",
+            "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
                 "documentation",
@@ -43,7 +43,7 @@
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
             "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
-            "readme": "http://20tauri.free.fr/DoxyDoxygen/README.md",
+            "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
                 "documentation",
@@ -56,16 +56,16 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.13.7",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.7/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2015-08-30 15:22:45"
+                    "version": "0.13.8",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.8/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2015-08-31 18:35:47"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
-                    "version": "0.13.7",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.7/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2015-08-30 15:22:45"
+                    "version": "0.13.8",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.13.8/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2015-08-31 18:35:47"
                 }
             ]
         }
