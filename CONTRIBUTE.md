@@ -1,1 +1,0 @@
-Please visit https://github.com/20Tauri/DoxyDoxygen_contrib
