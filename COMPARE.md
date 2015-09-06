@@ -47,7 +47,7 @@ Python                          | :white_check_mark: | :x:
 ActionScript                    | :cloud: (only commenting style) | :white_check_mark:
 Apex                            | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
 Coffee                          | :cloud: (only commenting style) | :white_check_mark:
-Haxe                            | :cloud: (only commenting style) | :white_check_mark: (actionScript based)
+Haxe                            | :cloud: (only commenting style) | :white_check_mark: (ActionScript based)
 Haskell                         | :cloud: (only commenting style) | :x:
 Lua                             | :cloud: (only commenting style) | :x:
 Objective C                     | :cloud: (only commenting style) | :white_check_mark: (poor ?)
@@ -56,7 +56,7 @@ OCaml                           | :cloud: (only commenting style) | :x:
 Matlab                          | :cloud: (only commenting style) | :x:
 Pascal                          | :cloud: (only commenting style) | :x:
 Rust                            | :white_check_mark: | :white_check_mark:
-Ruby                            | :cloud: (only commenting style) | :x:
+Ruby                            | :white_check_mark: (partial, Python based) | :x:
 Scala                           | :cloud: (only commenting style) | :x:
 Swift                           | :white_check_mark: | :x:
 Tcl                             | :cloud: (only commenting style) | :x:
