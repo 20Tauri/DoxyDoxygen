@@ -1,7 +1,7 @@
 
 ### Features
 
-                                | DoxyDoxygen        | DocBlockR
+                                | DoxyDoxygen        | DocBlockr
 ------------------------------- | ------------------ | ------------------
 Functions Documentation         | :white_check_mark: | :white_check_mark: (creation only)
 Class Documentation             | :white_check_mark: | :white_check_mark: (creation only)
@@ -19,7 +19,7 @@ Opened Issues (10-aug-2015)     | 0                  | 86
 
 ### Supported Documentation Tools
 
-                                                                       | DoxyDoxygen        | DocBlockR
+                                                                       | DoxyDoxygen        | DocBlockr
 ---------------------------------------------------------------------- | ------------------ | ------------------
 [Doxygen](http://www.stack.nl/~dimitri/doxygen/)                       | :white_check_mark: | :x:
 [Google Closure](https://developers.google.com/closure/compiler/)      | :white_check_mark: | :white_check_mark: 
@@ -32,7 +32,7 @@ Opened Issues (10-aug-2015)     | 0                  | 86
 
 ### Supported Languages
 
-                                | [DoxyDoxygen](https://github.com/20Tauri/DoxyDoxygen) | DocBlockR
+                                | [DoxyDoxygen](https://github.com/20Tauri/DoxyDoxygen) | DocBlockr
 ------------------------------- | ------------------ | ------------------
 C                               | :white_check_mark: | :white_check_mark: (official but poor)
 C++                             | :white_check_mark: | :white_check_mark: (official but poor)
@@ -43,14 +43,21 @@ Java                            | :white_check_mark: | :white_check_mark:
 JavaScript                      | :white_check_mark: | :white_check_mark:
 Php                             | :white_check_mark: | :white_check_mark:
 Python                          | :white_check_mark: | :x:
-ActionScript                    | :cloud:            | :white_check_mark:
+ActionScript                    | :cloud: (only commenting style) | :white_check_mark:
 Apex                            | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
-Coffee                          | :cloud:            | :white_check_mark:
-Haxe                            | :cloud:            | :white_check_mark: (actionScript based)
-Lua                             | :cloud:            | :x:
-Objective C                     | :cloud:            | :white_check_mark: (poor ?)
-Objective C++                   | :cloud:            | :cloud:
+Coffee                          | :cloud: (only commenting style) | :white_check_mark:
+Haxe                            | :cloud: (only commenting style) | :white_check_mark: (actionScript based)
+Haskell                         | :cloud: (only commenting style) | :x:
+Lua                             | :cloud: (only commenting style) | :x:
+Objective C                     | :cloud: (only commenting style) | :white_check_mark: (poor ?)
+Objective C++                   | :cloud: (only commenting style) | :cloud:
+OCaml                           | :cloud: (only commenting style) | :x:
+Matlab                          | :cloud: (only commenting style) | :x:
+Pascal                          | :cloud: (only commenting style) | :x:
 Rust                            | :white_check_mark: | :white_check_mark:
-Scala                           | :cloud:            | :x:
+Ruby                            | :white_check_mark: (partial, java based) | :x:
+Scala                           | :cloud: (only commenting style) | :x:
 Swift                           | :white_check_mark: | :x:
-TypeScript                      | :cloud:            | :white_check_mark:
+Tcl                             | :cloud: (only commenting style) | :x:
+TypeScript                      | :cloud: (only commenting style) | :white_check_mark:
+Vhdl                            | :cloud: (only commenting style) | :x:

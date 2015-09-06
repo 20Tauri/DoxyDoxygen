@@ -108,6 +108,7 @@ Currently, following languages are supported:
    * Php
    * Python
    * Rust (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "rust" package)
+   * Ruby (using Java syntax)
    * Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
    * Apex (using Java syntax)
    * Groovy (using Java syntax)
@@ -116,9 +117,16 @@ And those languages cannot be parsed, but re-wrapped, continued...
 
    * ActionScript
    * Coffee
+   * Fortran
+   * Haskell
    * Haxe
    * Lua
+   * MatLab
    * Objective C
    * Objective C++
+   * OCaml
+   * Pascal
    * Scala
+   * Tcl
    * TypeScript
+   * Vhdl
