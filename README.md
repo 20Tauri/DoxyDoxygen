@@ -18,6 +18,7 @@ It's designed to provide:
    * a deep language comprehension (examine function body to determine parameters types),
    * an easy and powerfull documenting style configuration,
    * capacity to update existing comments,
+   * plugins supports,
    * ...
 
 ## Usage
@@ -108,7 +109,6 @@ Currently, following languages are supported:
    * Php
    * Python
    * Rust (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "rust" package)
-   * Ruby (using Java syntax)
    * Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
    * Apex (using Java syntax)
    * Groovy (using Java syntax)
@@ -126,6 +126,7 @@ And those languages cannot be parsed, but re-wrapped, continued...
    * Objective C++
    * OCaml
    * Pascal
+   * Ruby
    * Scala
    * Tcl
    * TypeScript

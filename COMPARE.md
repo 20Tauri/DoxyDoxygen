@@ -14,6 +14,7 @@ Comments Continuation           | :white_check_mark: | :white_check_mark:
 Comments Folding                | :white_check_mark: | :x:
 Comments Rewrap                 | :white_check_mark: | :cloud: (basic)
 Configurable Layout             | :white_check_mark: | :cloud: (limited)
+Plugins support                 | :white_check_mark: | :x:
 Opened Issues (10-aug-2015)     | 0                  | 86
 
 
@@ -55,7 +56,7 @@ OCaml                           | :cloud: (only commenting style) | :x:
 Matlab                          | :cloud: (only commenting style) | :x:
 Pascal                          | :cloud: (only commenting style) | :x:
 Rust                            | :white_check_mark: | :white_check_mark:
-Ruby                            | :white_check_mark: (partial, java based) | :x:
+Ruby                            | :cloud: (only commenting style) | :x:
 Scala                           | :cloud: (only commenting style) | :x:
 Swift                           | :white_check_mark: | :x:
 Tcl                             | :cloud: (only commenting style) | :x:
