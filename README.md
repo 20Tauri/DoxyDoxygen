@@ -116,18 +116,30 @@ Currently, following languages are supported:
 
 And those languages cannot be parsed, but re-wrapped, continued...
 
+   * AppleScript
    * ActionScript
+   * Asp
+   * Clojure
    * Coffee
+   * Dot
+   * Erlang
    * Fortran
    * Haskell
    * Haxe
+   * Lisp
    * Lua
    * MatLab
    * Objective C
    * Objective C++
    * OCaml
    * Pascal
+   * Perl
+   * R
+   * Shell script (Bash)
    * Scala
+   * SQL
    * Tcl
    * TypeScript
-   * Vhdl
+   * VHDL
+   * YAML
+
