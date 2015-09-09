@@ -135,8 +135,8 @@ And those languages cannot be parsed, but re-wrapped, continued...
    * Pascal
    * Perl
    * R
-   * Shell script (Bash)
    * Scala
+   * Shell Script (Bash)
    * SQL
    * Tcl
    * TypeScript
