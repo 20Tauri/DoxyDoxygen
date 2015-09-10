@@ -1,8 +1,8 @@
-## DoxyDoxygen
+## Welcome to DoxyDoxygen
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
 
-DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation block comments using:
+DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks using:
 
    * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
    * [Google Closure](https://developers.google.com/closure/compiler/)
@@ -11,6 +11,7 @@ DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentat
    * [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
    * [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm)
    * [YuiDoc](http://yui.github.io/yuidoc)
+   * ...
 
 It's designed to provide:
 
@@ -18,7 +19,7 @@ It's designed to provide:
    * a deep language comprehension (examine function body to determine parameters types),
    * an easy and powerfull documenting style configuration,
    * capacity to update existing comments,
-   * plugins supports,
+   * sub-plugins support,
    * ...
 
 ## Usage
@@ -47,18 +48,20 @@ And, of course, class (with template or not) are also supported
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif)
 
-### Wrap and update an existing documentation
+### Update / Wrap an existing documentation block
 
 To wrap comment, press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X).
-And, as DoxyDoxygen know the Doxygen commands, NO invalid lines break will be inserted.
+As DoxyDoxygen knows the Doxygen commands, no invalid lines break will be inserted.
 
-Even better: <kbd>Alt</kbd>+<kbd>Q</kbd>, by default, update the documented object and detect missing/renamed/deleted parameters fields:
+Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the documented object and detect missing/renamed/moved parameters:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif)
 
-### Extend a documentation
+### Extend a documentation block
 
-DoxyDoxygen allows auto-completion. Available commands:
+DoxyDoxygen allows auto-completion. A large set of commands is available, but only commands matching your selected DocStyles are suggested...
+
+Available DocStyles and commands:
 
    * [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
    * [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
@@ -82,7 +85,7 @@ To ease navigation, pressing <kbd>EOL</kbd> (<kbd>Super</kbd>+<kbd>Right</kbd> o
 
 ### Fold / Unfold comments
 
-You can also Fold / Unfold comments blocks, from the command palette or using Sublime Text standard shortcuts.
+You can Fold / Unfold comments blocks from the command palette or using Sublime Text standard shortcuts.
 
 On Windows and Linux:
 
@@ -114,7 +117,7 @@ Currently, following languages are supported:
    * Apex (using Java syntax)
    * Groovy (using Java syntax)
 
-And those languages cannot be parsed, but re-wrapped, continued...
+And those languages cannot be parsed, but wrapped, continued...
 
    * AppleScript
    * ActionScript
@@ -138,8 +141,7 @@ And those languages cannot be parsed, but re-wrapped, continued...
    * Scala
    * Shell Script (Bash)
    * SQL
-   * Tcl
+   * TCL
    * TypeScript
    * VHDL
    * YAML
-
