@@ -44,15 +44,18 @@ Java                            | :white_check_mark: | :white_check_mark:
 JavaScript                      | :white_check_mark: | :white_check_mark:
 Php                             | :white_check_mark: | :white_check_mark:
 Python                          | :white_check_mark: | :x:
-ActionScript                    | :cloud: (only commenting style) | :white_check_mark:
+ActionScript                    | :white_check_mark: (generic) | :white_check_mark:
+AppleScript                     | :white_check_mark: (generic) | :x:
 Apex                            | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
+Asp       t                     | :white_check_mark: (generic) | :x:
+Clojure                         | :white_check_mark: (generic) | :x:
 Coffee                          | :cloud: (only commenting style) | :white_check_mark:
 Haxe                            | :cloud: (only commenting style) | :white_check_mark: (ActionScript based)
 Haskell                         | :cloud: (only commenting style) | :x:
-Lua                             | :cloud: (only commenting style) | :x:
+Lua                             | :white_check_mark: (generic) | :x:
 Objective C                     | :cloud: (only commenting style) | :white_check_mark: (poor ?)
 Objective C++                   | :cloud: (only commenting style) | :cloud:
-OCaml                           | :cloud: (only commenting style) | :x:
+OCaml                           | ::white_check_mark: (generic, no comment.block support) | :x:
 Matlab                          | :cloud: (only commenting style) | :x:
 Pascal                          | :cloud: (only commenting style) | :x:
 Rust                            | :white_check_mark: | :white_check_mark:

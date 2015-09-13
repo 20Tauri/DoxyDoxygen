@@ -116,13 +116,15 @@ Currently, following languages are supported:
    * Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
    * Apex (using Java syntax)
    * Groovy (using Java syntax)
+   * ActionScript (generic parser)
+   * AppleScript (generic parser)
+   * Asp (generic parser)
+   * Clojure (generic parser)
+   * Lua (generic parser)
+   * OCaml (generic parser,no comment.block support)
 
 And those languages cannot be parsed, but wrapped, continued...
 
-   * AppleScript
-   * ActionScript
-   * Asp
-   * Clojure
    * Coffee
    * Dot
    * Erlang
@@ -130,11 +132,9 @@ And those languages cannot be parsed, but wrapped, continued...
    * Haskell
    * Haxe
    * Lisp
-   * Lua
    * MatLab
    * Objective C
    * Objective C++
-   * OCaml
    * Pascal
    * Perl
    * R
