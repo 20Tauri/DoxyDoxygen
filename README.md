@@ -121,7 +121,8 @@ Currently, following languages are supported:
    * Asp (generic parser)
    * Clojure (generic parser)
    * Lua (generic parser)
-   * OCaml (generic parser,no comment.block support)
+   * OCaml (generic parser)
+   * Scala (generic parser)
 
 And those languages cannot be parsed, but wrapped, continued...
 
@@ -138,7 +139,6 @@ And those languages cannot be parsed, but wrapped, continued...
    * Pascal
    * Perl
    * R
-   * Scala
    * Shell Script (Bash)
    * SQL
    * TCL
