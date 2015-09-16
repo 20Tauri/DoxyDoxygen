@@ -111,11 +111,11 @@ Currently, following languages are supported:
    * JavaScript
    * Php
    * Python
-   * Ruby (usyng Python syntax)
-   * Rust (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "rust" package)
-   * Swift (<kbd>Alt</kbd>+<kbd>Q</kbd> requiere to install the "swift" package)
+   * Ruby (using Python syntax)
+   * Rust (requiere to install the "rust" package)
+   * Swift (requiere to install the "swift" package)
    * Apex (using Java syntax)
-   * Groovy (using Java syntax)
+   * Groovy (using extended Java syntax)
    * ActionScript (generic parser)
    * AppleScript (generic parser)
    * Asp (generic parser)
