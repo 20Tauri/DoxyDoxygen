@@ -59,7 +59,7 @@ OCaml                           | :white_check_mark: (generic) | :x:
 Matlab                          | :white_check_mark: (generic) | :x:
 Pascal                          | :cloud: (only commenting style) | :x:
 Rust                            | :white_check_mark: | :white_check_mark:
-Ruby                            | :white_check_mark: (partial, Python based) | :x:
+Ruby                            | :white_check_mark: (Python based with extension) | :x:
 Scala                           | :white_check_mark: (generic) | :x:
 Swift                           | :white_check_mark: | :x:
 Tcl                             | :cloud: (only commenting style) | :x:
