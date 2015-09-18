@@ -42,9 +42,9 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.16.1",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.16.1/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2015-09-17 22:42:35"
+                    "version": "0.16.2",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.16.2/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2015-09-18 16:11:59"
                 },
                 {
                     "platforms": [ "*" ],
@@ -75,9 +75,9 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.16.1",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.16.1/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2015-09-17 22:42:35"
+                    "version": "0.16.2",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.16.2/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2015-09-18 16:11:59"
                 },
                 {
                     "platforms": [ "*" ],
