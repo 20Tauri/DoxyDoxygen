@@ -35,33 +35,36 @@ Opened Issues (10-aug-2015)     | 0                  | 86
 
                                 | [DoxyDoxygen](https://github.com/20Tauri/DoxyDoxygen) | DocBlockr
 ------------------------------- | ------------------ | ------------------
-C                               | :white_check_mark: | :white_check_mark: (official but poor)
-C++                             | :white_check_mark: | :white_check_mark: (official but poor)
-C#                              | :white_check_mark: | :x:
-Doxygen                         | :white_check_mark: | :x:
-Groovy                          | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
-Java                            | :white_check_mark: | :white_check_mark:
-JavaScript                      | :white_check_mark: | :white_check_mark:
-Php                             | :white_check_mark: | :white_check_mark:
-Python                          | :white_check_mark: | :x:
 ActionScript                    | :white_check_mark: (generic) | :white_check_mark:
-AppleScript                     | :white_check_mark: (generic) | :x:
 Apex                            | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
-Asp                             | :white_check_mark: (generic) | :x:
+AppleScript                     | :white_check_mark: (generic) | :x:
+ASP                             | :white_check_mark: (generic) | :x:
+C                               | :white_check_mark: | :white_check_mark: (official but poor)
+C#                              | :white_check_mark: | :x:
+C++                             | :white_check_mark: | :white_check_mark: (official but poor)
 Clojure                         | :white_check_mark: (generic) | :x:
 Coffee                          | :cloud: (only commenting style) | :white_check_mark:
-Haxe                            | :cloud: (only commenting style) | :white_check_mark: (ActionScript based)
+Doxygen                         | :white_check_mark: | :x:
+Groovy                          | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
 Haskell                         | :cloud: (only commenting style) | :x:
+Haxe                            | :cloud: (only commenting style) | :white_check_mark: (ActionScript based)
+Java                            | :white_check_mark: | :white_check_mark:
+JavaScript                      | :white_check_mark: | :white_check_mark:
+Lisp                            | :white_check_mark: (generic) | :x:
 Lua                             | :white_check_mark: (generic) | :x:
-Objective C                     | :cloud: (only commenting style) | :white_check_mark: (poor ?)
-Objective C++                   | :cloud: (only commenting style) | :cloud:
-OCaml                           | :white_check_mark: (generic) | :x:
 Matlab                          | :white_check_mark: (generic) | :x:
-Pascal                          | :cloud: (only commenting style) | :x:
-Rust                            | :white_check_mark: | :white_check_mark:
+Objective C                     | :white_check_mark: (generic) | :white_check_mark: (poor ?)
+Objective C++                   | :white_check_mark: (generic) | :white_check_mark: (poor ?)
+OCaml                           | :white_check_mark: (generic) | :x:
+Pascal                          | :white_check_mark: (generic) | :x:
+Php                             | :white_check_mark: | :white_check_mark:
+Python                          | :white_check_mark: | :x:
+R                               | :white_check_mark: (generic) | :x:
 Ruby                            | :white_check_mark: (Python based with extension) | :x:
+Rust                            | :white_check_mark: | :white_check_mark:
 Scala                           | :white_check_mark: (generic) | :x:
+SQL                             | :white_check_mark: (generic) | :x:
 Swift                           | :white_check_mark: | :x:
-Tcl                             | :cloud: (only commenting style) | :x:
-TypeScript                      | :cloud: (only commenting style) | :white_check_mark:
+TCL                             | :white_check_mark: (generic) | :x:
+TypeScript                      | :white_check_mark: (generic) | :white_check_mark:
 Vhdl                            | :cloud: (only commenting style) | :x:

@@ -103,26 +103,35 @@ On OS/X:
 
 Currently, following languages are supported:
 
-   * C
-   * C++
-   * C# 
-   * Doxygen
-   * Java
-   * JavaScript
-   * Php
-   * Python
-   * Ruby (using Python syntax)
-   * Rust (requiere to install the "rust" package)
-   * Swift (requiere to install the "swift" package)
-   * Apex (using Java syntax)
-   * Groovy (using extended Java syntax)
    * ActionScript (generic parser)
+   * Apex (using Java syntax)
    * AppleScript (generic parser)
    * Asp (generic parser)
+   * C
+   * C# 
+   * C++
    * Clojure (generic parser)
+   * Doxygen
+   * Groovy (using extended Java syntax)
+   * Java
+   * JavaScript
+   * Lisp
    * Lua (generic parser)
+   * MatLab
+   * Objective C
+   * Objective C++
    * OCaml (generic parser)
+   * Pascal
+   * Php
+   * Python
+   * R
+   * Ruby (using Python syntax)
+   * Rust (requiere to install the "rust" package)
    * Scala (generic parser)
+   * SQL
+   * Swift (requiere to install the "swift" package)
+   * TCL
+   * TypeScript
 
 And those languages cannot be parsed, but wrapped, continued...
 
@@ -132,16 +141,7 @@ And those languages cannot be parsed, but wrapped, continued...
    * Fortran
    * Haskell
    * Haxe
-   * Lisp
-   * MatLab
-   * Objective C
-   * Objective C++
-   * Pascal
    * Perl
-   * R
    * Shell Script (Bash)
-   * SQL
-   * TCL
-   * TypeScript
    * VHDL
    * YAML
