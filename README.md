@@ -111,10 +111,13 @@ Currently, following languages are supported:
    * C# 
    * C++
    * Clojure (generic parser)
+   * Coffee (requiere to install the "coffescript" package)
    * Doxygen
+   * Haxe
    * Groovy (using extended Java syntax)
    * Java
    * JavaScript
+   * Haskell (poor)
    * Lisp
    * Lua (generic parser)
    * MatLab
@@ -125,7 +128,7 @@ Currently, following languages are supported:
    * Php
    * Python
    * R
-   * Ruby (using Python syntax)
+   * Ruby
    * Rust (requiere to install the "rust" package)
    * Scala (generic parser)
    * SQL
@@ -135,12 +138,9 @@ Currently, following languages are supported:
 
 And those languages cannot be parsed, but wrapped, continued...
 
-   * Coffee
    * Dot
    * Erlang
    * Fortran
-   * Haskell
-   * Haxe
    * Perl
    * Shell Script (Bash)
    * VHDL

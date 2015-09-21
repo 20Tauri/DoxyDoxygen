@@ -43,11 +43,11 @@ C                               | :white_check_mark: | :white_check_mark: (offic
 C#                              | :white_check_mark: | :x:
 C++                             | :white_check_mark: | :white_check_mark: (official but poor)
 Clojure                         | :white_check_mark: (generic) | :x:
-Coffee                          | :cloud: (only commenting style) | :white_check_mark:
+Coffee                          | :white_check_mark: (generic) | :white_check_mark:
 Doxygen                         | :white_check_mark: | :x:
 Groovy                          | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
-Haskell                         | :cloud: (only commenting style) | :x:
-Haxe                            | :cloud: (only commenting style) | :white_check_mark: (ActionScript based)
+Haskell                         | :white_check_mark: | :x:
+Haxe                            | :white_check_mark: (generic) | :white_check_mark: (ActionScript based)
 Java                            | :white_check_mark: | :white_check_mark:
 JavaScript                      | :white_check_mark: | :white_check_mark:
 Lisp                            | :white_check_mark: (generic) | :x:
