@@ -1,7 +1,7 @@
 
 ### Features
 
-                                | DoxyDoxygen        | DocBlockr
+                                | [DoxyDoxygen](https://github.com/20Tauri/DoxyDoxygen)  | DocBlockr
 ------------------------------- | ------------------ | ------------------
 Functions Documentation         | :white_check_mark: | :white_check_mark: (creation only)
 Class Documentation             | :white_check_mark: | :white_check_mark: (creation only)
@@ -20,7 +20,7 @@ Opened Issues (10-aug-2015)     | 0                  | 86
 
 ### Supported Documentation Tools
 
-                                                                       | DoxyDoxygen        | DocBlockr
+                                                                       | [DoxyDoxygen](https://github.com/20Tauri/DoxyDoxygen)         | DocBlockr
 ---------------------------------------------------------------------- | ------------------ | ------------------
 [Doxygen](http://www.stack.nl/~dimitri/doxygen/)                       | :white_check_mark: | :x:
 [Google Closure](https://developers.google.com/closure/compiler/)      | :white_check_mark: | :white_check_mark: 
@@ -41,7 +41,7 @@ AppleScript                     | :white_check_mark: (generic) | :x:
 ASP                             | :white_check_mark: (generic) | :x:
 C                               | :white_check_mark: | :white_check_mark: (official but poor)
 C#                              | :white_check_mark: | :x:
-C++                             | :white_check_mark: | :white_check_mark: (official but poor)
+C++                             | :white_check_mark: (including C++11) | :white_check_mark: (official but poor)
 Clojure                         | :white_check_mark: (generic) | :x:
 Coffee                          | :white_check_mark: (generic) | :white_check_mark:
 Doxygen                         | :white_check_mark: | :x:
@@ -49,7 +49,8 @@ Groovy                          | :white_check_mark: (partial, java based) | :wh
 Haskell                         | :white_check_mark: | :x:
 Haxe                            | :white_check_mark: (generic) | :white_check_mark: (ActionScript based)
 Java                            | :white_check_mark: | :white_check_mark:
-JavaScript                      | :white_check_mark: | :white_check_mark:
+JavaScript                      | :white_check_mark: (including ES/6) | :white_check_mark: (including ES/6)
+Go                              | :white_check_mark: | :x:
 Lisp                            | :white_check_mark: (generic) | :x:
 Lua                             | :white_check_mark: (generic) | :x:
 Matlab                          | :white_check_mark: (generic) | :x:
