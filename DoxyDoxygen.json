@@ -62,7 +62,8 @@
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
             "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
-            "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
+            // "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
+            "readme": "http://20tauri.free.fr/DoxyDoxygen/README.md",
             "previous_names": [],
             "labels": [
                 "documentation",
@@ -75,16 +76,16 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.19.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.19.2/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2015-09-25 17:24:39"
+                    "version": "0.19.3",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.19.3/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2015-09-27 21:13:44"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
-                    "version": "0.19.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.19.2/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2015-09-25 17:24:39"
+                    "version": "0.19.3",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.19.3/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2015-09-27 21:13:44"
                 }
             ]
         }
