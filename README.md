@@ -146,6 +146,11 @@ And those languages cannot be parsed, but wrapped, continued...
    * VHDL
    * YAML
 
+## Survey
+
+To help to improve this software, I need to know your needs...
+Here, you can find a short [survey](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
+
 ## License
 
 DoxyDoxygen may be downloaded and evaluated for free, however a license must be purchased for continued use. See
