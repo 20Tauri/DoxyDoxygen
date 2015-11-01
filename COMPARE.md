@@ -48,6 +48,7 @@ Doxygen            | :white_check_mark: | :x:
 Groovy             | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
 Haskell            | :white_check_mark: | :x:
 Haxe               | :white_check_mark: (generic) | :white_check_mark: (ActionScript based)
+Erlang             | :cloud: (poor) | :x:
 Java               | :white_check_mark: | :white_check_mark:
 JavaScript         | :white_check_mark: (including ES/6) | :white_check_mark: (including ES/6)
 Go                 | :white_check_mark: | :x:
