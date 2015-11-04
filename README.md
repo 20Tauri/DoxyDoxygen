@@ -115,6 +115,7 @@ Currently, following languages are supported:
    * Clojure (generic parser)
    * Coffee (requiere to install the "coffescript" package)
    * Doxygen
+   * Erlang (poor)
    * Haxe
    * Groovy (using extended Java syntax)
    * Java
@@ -141,7 +142,6 @@ Currently, following languages are supported:
 And those languages cannot be parsed, but wrapped, continued...
 
    * Dot
-   * Erlang
    * Fortran
    * Perl
    * Shell Script (Bash)
