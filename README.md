@@ -101,6 +101,15 @@ On OS/X:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif)
 
+## Tips / FAQ
+
+##### How can I switch to a different "preferred_comment_style" ?
+
+On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferered style that match the language. To use a specific comment style, you have to start your comment (ex: '///'), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
+
+> _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
+
+
 ## Supported languages
 
 Currently, following languages are supported:
