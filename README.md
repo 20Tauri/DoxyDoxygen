@@ -168,7 +168,3 @@ DoxyDoxygen may be downloaded and evaluated for free, however a license must be 
 [End User License Agreement](http://20tauri.free.fr/DoxyDoxygen/#page_eula) for further informations.
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXEEET3XT3VYG)
-
-You can also support development with a donation:
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZA6NHWHDE2X2)
