@@ -145,11 +145,13 @@ Currently, following languages are supported:
    * Scala (generic parser)
    * SQL
    * Swift (requiere to install the "swift" package)
+   * SystemVerilog (generic parser)
    * TCL
    * TypeScript
 
 And those languages cannot be parsed, but wrapped, continued...
 
+   * Assembler (x86, m68k, arm, sparc...)
    * Dot
    * Fortran
    * Perl

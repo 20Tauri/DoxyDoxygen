@@ -67,6 +67,7 @@ Rust               | :white_check_mark: | :white_check_mark:
 Scala              | :white_check_mark: (generic) | :x:
 SQL                | :white_check_mark: (generic) | :x:
 Swift              | :white_check_mark: | :x:
+SystemVerilog      | :white_check_mark: (generic) | :x:
 TCL                | :white_check_mark: (generic) | :x:
 TypeScript         | :white_check_mark: (generic) | :white_check_mark:
 Vhdl               | :cloud: (only commenting style) | :x:
