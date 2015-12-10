@@ -109,6 +109,61 @@ On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferered sty
 
 > _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
 
+##### How can I add tags dynamicly ?
+
+`block_layout` parameter may be context dependant. To set up a context dependant, you have to define a list of dictionnaries.
+
+Each dictionnary should have two keys:
+   - `block_layout` (same format a if it's an array of string)
+   - `context` similar format as sublime text rule
+
+Each context, is a list of conditions. Each condition is compose t
+   - `key`: Name of a context operand to query. May be one of:
+      - "kind"
+      - "name"
+      - "nb_params"
+   - `operator`: Type of test to perform against `key`. May be one of:
+      - "regex_match"
+      - "equal"
+      - "not_equal"
+      - "greater_than"
+      - "lower_than"
+      - "regex_contains"
+   - `operand`: Value against which the result of `key` is tested.
+
+Here's an example illustrating most of the features outlined above:
+```
+    "block_layout": {
+        "Doxygen": [
+           {
+               "tags": [
+                   "@brief            I'm private class"
+               ],
+               "context": [
+                   { "key": "name",      "operator": "regex_match",    "operand": "^_.*$" },
+                   { "key": "kind",      "operator": "equal",          "operand": "class" }
+               ]
+           },
+
+           // Compact style if there's less than one parameter
+           {
+               "tags": [
+                   "@brief",
+                   "@param",
+                   "@tparam",
+                   "@return",
+                   ""
+               ],
+               "context": [
+                   { "key": "nb_params", "operator": "lower_than",     "operand": "2" }
+               ]
+           }
+
+           // You don't have to be exhautive.
+           // If no rule match, 'block_layout_default' is consider
+       ]
+   }
+```
 
 ## Supported languages
 
