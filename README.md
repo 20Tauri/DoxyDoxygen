@@ -122,6 +122,9 @@ Each context, is a list of conditions. Each condition is compose t
       - "kind"
       - "name"
       - "nb_params"
+      - "nb_tparams"
+      - "row"
+      - "col"
    - `operator`: Type of test to perform against `key`. May be one of:
       - "regex_match"
       - "equal"
@@ -142,6 +145,19 @@ Here's an example illustrating most of the features outlined above:
                "context": [
                    { "key": "name",      "operator": "regex_match",    "operand": "^_.*$" },
                    { "key": "kind",      "operator": "equal",          "operand": "class" }
+               ]
+           },
+
+           // File Header integration
+           {
+               "tags": [
+                   "@brief            I'm a file header and my name is {file_base_name}",
+                   "",
+                   "@date {now:%d-%b-%Y}",
+               ],
+               "context": [
+                   { "key": "row",      "operator": "equal",          "operand": "0" },
+                   { "key": "kind",     "operator": "equal",          "operand": "" },
                ]
            },
 
