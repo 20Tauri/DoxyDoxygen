@@ -111,7 +111,7 @@ On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferered sty
 
 ##### How can I add tags dynamicly ?
 
-`block_layout` parameter may be context dependant. To set up a context dependant, you have to define a list of dictionnaries.
+Since version 0.27, `block_layout` parameter may be context dependant. To set up a context dependant, you have to define a list of dictionnaries.
 
 Each dictionnary should have two keys:
    - `block_layout` (same format a if it's an array of string)
@@ -119,19 +119,22 @@ Each dictionnary should have two keys:
 
 Each context, is a list of conditions. Each condition is compose t
    - `key`: Name of a context operand to query. May be one of:
-      - "kind"
-      - "name"
-      - "nb_params"
-      - "nb_tparams"
-      - "row"
-      - "col"
+      - `kind`
+         - "function", "lambda", "generator", "constructor",
+         - "class", "struct", "union", "enum"
+         - "var", "constant"
+      - `name`
+      - `nb_params` (only for "function", "lambda"...)
+      - `nb_tparams`
+      - `row`
+      - `col`
    - `operator`: Type of test to perform against `key`. May be one of:
-      - "regex_match"
-      - "equal"
-      - "not_equal"
-      - "greater_than"
-      - "lower_than"
-      - "regex_contains"
+      - `regex_match`
+      - `equal`
+      - `not_equal`
+      - `greater_than`
+      - `lower_than`
+      - `regex_contains`
    - `operand`: Value against which the result of `key` is tested.
 
 Here's an example illustrating most of the features outlined above:
@@ -153,11 +156,13 @@ Here's an example illustrating most of the features outlined above:
                "tags": [
                    "@brief            I'm a file header and my name is {file_base_name}",
                    "",
-                   "@date {now:%d-%b-%Y}",
+                   "@author           {user_name}",
+                   "",
+                   "@date             {now:%d-%b-%Y}"
                ],
                "context": [
                    { "key": "row",      "operator": "equal",          "operand": "0" },
-                   { "key": "kind",     "operator": "equal",          "operand": "" },
+                   { "key": "kind",     "operator": "equal",          "operand": "" }
                ]
            },
 
