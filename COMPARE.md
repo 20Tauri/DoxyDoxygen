@@ -15,18 +15,20 @@ Comments Folding                | :white_check_mark: | :x:
 Comments Rewrap                 | :white_check_mark: | :cloud: (basic)
 Configurable Layout             | :white_check_mark: | :cloud: (limited)
 Plugins support                 | :white_check_mark: | :x:
-Opened Issues (10-aug-2015)     | 0                  | 86
+Opened Issues (22-dec-2015)     | 3                  | 106
 
 
 ### Supported Documentation Tools
 
                    | [DoxyDoxygen]      | DocBlockr
 ------------------ | ------------------ | ------------------
+[ApiDocn]          | :white_check_mark: | :x:
 [Doxygen]          | :white_check_mark: | :x:
 [Google Closure]   | :white_check_mark: | :white_check_mark: 
 [JavaDoc]          | :white_check_mark: | :cloud: (partial)
 [JsDoc]            | :white_check_mark: | :white_check_mark: 
 [PhpDocumentor]    | :white_check_mark: | :white_check_mark: 
+[Sphinx]           | :cloud:            | :x: 
 [XmlDoc]           | :white_check_mark: | :x:
 [YuiDoc]           | :white_check_mark: | :white_check_mark: 
 
