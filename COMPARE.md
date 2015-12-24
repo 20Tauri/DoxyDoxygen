@@ -14,6 +14,7 @@ Comments Continuation           | :white_check_mark: | :white_check_mark:
 Comments Folding                | :white_check_mark: | :x:
 Comments Rewrap                 | :white_check_mark: | :cloud: (basic)
 Configurable Layout             | :white_check_mark: | :cloud: (limited)
+Docstring support               | :white_check_mark: | :x: (but fork available)
 Plugins support                 | :white_check_mark: | :x:
 Opened Issues (22-dec-2015)     | 3                  | 106
 
