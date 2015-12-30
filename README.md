@@ -107,7 +107,13 @@ On OS/X:
 
 ##### How can I switch to a different "preferred_comment_style" ?
 
-On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferered style that match the language. To use a specific comment style, you have to start your comment (ex: '///'), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
+On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferered style that match the language. To use a specific comment style, you have to start your comment style (ex: '// ='), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
+
+> _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
+
+##### How to avoid comment continuation ?
+
+Comment continuation is optionnal (parameter `continuation_on_last_comment`), but if activated, you can press <kbd>Shift</kbd>+<kbd>Return</kbd> to stop continuation.
 
 > _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
 
