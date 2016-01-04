@@ -232,6 +232,7 @@ Currently, following languages are supported:
    * SystemVerilog (generic parser)
    * TCL
    * TypeScript
+   * WebIDL (generic parser)
 
 And those languages cannot be parsed, but wrapped, continued...
 

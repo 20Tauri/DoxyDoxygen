@@ -74,6 +74,7 @@ SystemVerilog      | :white_check_mark: (generic) | :x:
 TCL                | :white_check_mark: (generic) | :x:
 TypeScript         | :white_check_mark: (generic) | :white_check_mark:
 Vhdl               | :cloud: (only commenting style) | :x:
+WebIDL             | :white_check_mark: (generic) | :x:
 
 [DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen
 [Doxygen]: http://www.stack.nl/~dimitri/doxygen/
