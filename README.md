@@ -231,6 +231,7 @@ Currently, following languages are supported:
    * Swift (requiere to install the "swift" package)
    * SystemVerilog (generic parser)
    * TCL
+   * Thrift (generic parser)
    * TypeScript
    * WebIDL (generic parser)
 
