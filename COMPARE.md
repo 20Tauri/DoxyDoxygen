@@ -47,6 +47,7 @@ C#                 | :white_check_mark:              | :x:
 C++                | :white_check_mark: (including C++11) | :white_check_mark: (official but poor)
 Clojure            | :white_check_mark: (generic)    | :x:
 Coffee             | :white_check_mark: (generic)    | :white_check_mark:
+D                  | :white_check_mark: (generic)    | :x:
 Doxygen            | :white_check_mark:              | :x:
 Groovy             | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
 Haskell            | :white_check_mark:              | :x:
@@ -54,10 +55,12 @@ Haxe               | :white_check_mark: (generic)    | :white_check_mark: (Actio
 Erlang             | :cloud: (poor)                  | :x:
 Java               | :white_check_mark:              | :white_check_mark:
 JavaScript         | :white_check_mark: (including ES/6) | :white_check_mark: (including ES/6)
+Julia              | :white_check_mark: (generic)    | :x:
 Go                 | :white_check_mark:              | :x:
 Lisp               | :white_check_mark: (generic)    | :x:
 Lua                | :white_check_mark: (generic)    | :x:
 Matlab             | :white_check_mark: (generic)    | :x:
+NSIS               | :cloud: (only commenting style) | :x:
 Objective C        | :white_check_mark: (generic)    | :white_check_mark: (poor ?)
 Objective C++      | :white_check_mark: (generic)    | :white_check_mark: (poor ?)
 OCaml              | :white_check_mark: (generic)    | :x:
@@ -65,6 +68,7 @@ Pascal             | :white_check_mark: (generic)    | :x:
 Php                | :white_check_mark:              | :white_check_mark:
 Python             | :white_check_mark:              | :x:
 R                  | :white_check_mark: (generic)    | :x:
+Razor              | :white_check_mark: (generic, limited functions detection)    | :x:
 Ruby               | :white_check_mark: (Python based with extension) | :x:
 Rust               | :white_check_mark:              | :white_check_mark:
 Scala              | :white_check_mark: (generic)    | :x:
@@ -75,6 +79,7 @@ TCL                | :white_check_mark: (generic)    | :x:
 TypeScript         | :white_check_mark: (generic)    | :white_check_mark:
 Thrift             | :white_check_mark: (generic)    | :x:
 Vhdl               | :cloud: (only commenting style) | :x:
+VEX                | :white_check_mark: (generic)    | :x:
 WebIDL             | :white_check_mark: (generic)    | :x:
 
 [DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen

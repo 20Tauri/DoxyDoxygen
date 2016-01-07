@@ -207,12 +207,14 @@ Currently, following languages are supported:
    * C++
    * Clojure (generic parser)
    * Coffee (requiere to install the "coffescript" package)
+   * D (generic parser)
    * Doxygen
    * Erlang (poor)
    * Haxe
    * Groovy (using extended Java syntax)
    * Java
    * JavaScript
+   * Julia
    * Haskell (poor)
    * Lisp
    * Lua (generic parser)
@@ -224,6 +226,7 @@ Currently, following languages are supported:
    * Php
    * Python
    * R
+   * Razor (generic parser, limited functions detection)
    * Ruby
    * Rust (requiere to install the "rust" package)
    * Scala (generic parser)
@@ -233,6 +236,7 @@ Currently, following languages are supported:
    * TCL
    * Thrift (generic parser)
    * TypeScript
+   * VEX (generic parser)
    * WebIDL (generic parser)
 
 And those languages cannot be parsed, but wrapped, continued...
