@@ -16,7 +16,8 @@ Comments Rewrap                 | :white_check_mark: | :cloud: (basic)          
 Configurable Layout             | :white_check_mark: | :cloud: (limited)                  | :cloud:
 Docstring support               | :white_check_mark: | :x: (but fork available)           | :white_check_mark:
 Plugins support                 | :white_check_mark: | :x:                                | :x:
-Opened Issues (22-dec-2015)     | 3                  | 106                                | 0
+Documentation Export (HTML, RTF, Latex, CHM) | :cloud: (Doxygen only) | :x:                                | :x:
+Opened Issues (15-jan-2016)     | 3                  | 105                                | 0
 
 
 ### Supported Documentation Tools
