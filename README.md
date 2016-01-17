@@ -198,56 +198,58 @@ Here's an example illustrating most of the features outlined above:
 
 Currently, following languages are supported:
 
-   * ActionScript (generic parser)
-   * Apex (using Java syntax)
-   * AppleScript (generic parser)
-   * Asp (generic parser)
-   * C
-   * C# 
-   * C++
-   * Clojure (generic parser)
-   * Coffee (requiere to install the "coffescript" package)
-   * D (generic parser)
-   * Doxygen
-   * Erlang (poor)
-   * Haxe
-   * Groovy (using extended Java syntax)
-   * Java
-   * JavaScript
-   * Julia
-   * Haskell (poor)
-   * Lisp
-   * Lua (generic parser)
-   * MatLab
-   * Objective C
-   * Objective C++
-   * OCaml (generic parser)
-   * Pascal
-   * Php
-   * Python
-   * R
-   * Razor (generic parser, limited functions detection)
-   * Ruby
-   * Rust (requiere to install the "rust" package)
-   * Scala (generic parser)
-   * SQL
-   * Swift (requiere to install the "swift" package)
-   * SystemVerilog (generic parser)
-   * TCL
-   * Thrift (generic parser)
-   * TypeScript
-   * VEX (generic parser)
-   * WebIDL (generic parser)
+ActionScript       | :white_check_mark: (generic)
+Apex               | :white_check_mark: (partial, Java based)
+AppleScript        | :white_check_mark: (generic)
+ASP                | :white_check_mark: (generic)
+C                  | :white_check_mark:
+C#                 | :white_check_mark:
+C++                | :white_check_mark: (including C++11)
+Clojure            | :white_check_mark: (generic)
+Coffee             | :white_check_mark: (generic)
+D                  | :white_check_mark: (generic)
+Doxygen            | :white_check_mark:
+Fortran (Modern)   | :cloud: (generic, poor)
+Groovy             | :white_check_mark: (partial, extended Java syntax)
+Haskell            | :white_check_mark:
+Haxe               | :white_check_mark: (generic)
+Erlang             | :cloud: (poor)
+Java               | :white_check_mark:
+JavaScript         | :white_check_mark: (including ES/6)
+Julia              | :white_check_mark: (generic)
+Go                 | :white_check_mark:
+Lisp               | :white_check_mark: (generic)
+Lua                | :white_check_mark: (generic)
+Matlab             | :white_check_mark: (generic)
+NSIS               | :cloud: (only commenting style)
+Objective C        | :white_check_mark: (generic)
+Objective C++      | :white_check_mark: (generic)
+OCaml              | :white_check_mark: (generic)
+Pascal             | :white_check_mark: (generic)
+Php                | :white_check_mark:
+Python             | :white_check_mark:
+R                  | :white_check_mark: (generic)
+Razor              | :white_check_mark: (generic, limited functions detection)
+Ruby               | :white_check_mark: (Python based with extension)
+Rust               | :white_check_mark:
+Scala              | :white_check_mark: (generic)
+SQL                | :white_check_mark: (generic)
+Swift              | :white_check_mark:
+SystemVerilog      | :white_check_mark: (generic)
+TCL                | :white_check_mark: (generic)
+TypeScript         | :white_check_mark: (generic)
+Thrift             | :white_check_mark: (generic)
+Vhdl               | :cloud: (generic, poor)
+VEX                | :white_check_mark: (generic)
+WebIDL             | :white_check_mark: (generic)
 
 And those languages cannot be parsed, but wrapped, continued...
 
-   * Assembler (x86, m68k, arm, sparc...)
-   * Dot
-   * Fortran
-   * Perl
-   * Shell Script (Bash)
-   * VHDL
-   * YAML
+Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark:
+Dot                                  | :heavy_exclamation_mark:
+Perl                                 | :heavy_exclamation_mark:
+Shell Script (bash)                  | :heavy_exclamation_mark:
+YAML                                 | :heavy_exclamation_mark:
 
 ## Survey
 

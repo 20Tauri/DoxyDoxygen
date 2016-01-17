@@ -40,7 +40,7 @@ Opened Issues (15-jan-2016)     | 3                  | 105                      
                    | [DoxyDoxygen]                   | DocBlockr
 ------------------ | ------------------              | ------------------
 ActionScript       | :white_check_mark: (generic)    | :white_check_mark:
-Apex               | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
+Apex               | :white_check_mark: (partial, Java based) | :white_check_mark: (partial, java based)
 AppleScript        | :white_check_mark: (generic)    | :x:
 ASP                | :white_check_mark: (generic)    | :x:
 C                  | :white_check_mark:              | :white_check_mark: (official but poor)
@@ -50,7 +50,8 @@ Clojure            | :white_check_mark: (generic)    | :x:
 Coffee             | :white_check_mark: (generic)    | :white_check_mark:
 D                  | :white_check_mark: (generic)    | :x:
 Doxygen            | :white_check_mark:              | :x:
-Groovy             | :white_check_mark: (partial, java based) | :white_check_mark: (partial, java based)
+Fortran (Modern)   | :cloud: (generic, poor)         | :x:
+Groovy             | :white_check_mark: (partial, extended Java syntax) | :white_check_mark: (partial, java based)
 Haskell            | :white_check_mark:              | :x:
 Haxe               | :white_check_mark: (generic)    | :white_check_mark: (ActionScript based)
 Erlang             | :cloud: (poor)                  | :x:
@@ -79,7 +80,7 @@ SystemVerilog      | :white_check_mark: (generic)    | :x:
 TCL                | :white_check_mark: (generic)    | :x:
 TypeScript         | :white_check_mark: (generic)    | :white_check_mark:
 Thrift             | :white_check_mark: (generic)    | :x:
-Vhdl               | :cloud: (only commenting style) | :x:
+Vhdl               | :cloud: (generic, poor)         | :x:
 VEX                | :white_check_mark: (generic)    | :x:
 WebIDL             | :white_check_mark: (generic)    | :x:
 
