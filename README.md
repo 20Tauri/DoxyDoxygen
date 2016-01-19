@@ -4,15 +4,15 @@
 
 DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks using:
 
-   * [ApiDoc](http://apidocjs.com/)
-   * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
-   * [Google Closure](https://developers.google.com/closure/compiler/)
-   * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
-   * [JsDoc](http://usejsdoc.org)
-   * [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
-   * [Sphinx](http://sphinx-doc.org/)
-   * [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm)
-   * [YuiDoc](http://yui.github.io/yuidoc)
+   * [ApiDoc]
+   * [Doxygen]
+   * [Google Closure]
+   * [JavaDoc]
+   * [JsDoc]
+   * [PhpDocumentor]
+   * [Sphinx]
+   * [XmlDoc]
+   * [YuiDoc]
    * ...
 
 It's designed to provide:
@@ -32,23 +32,23 @@ Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, 
 
 There are no keyboard shortcuts to memorize. But, to be more efficicent, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> after function definition.
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
 Types are automaticly deduce from code:
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/javascript.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/javascript.gif "Guess types")
 
 Even hard to parse languages are well supported:
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif "Support C++"")
 
 If a function has a template parameter, a `@tparam` property is automatically added:
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/template.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/template.gif "Support @param")
 
 And, of course, class (with template or not) are also supported
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif "Document class")
 
 ### Update / Wrap an existing documentation block
 
@@ -57,7 +57,7 @@ As DoxyDoxygen knows the Doxygen commands, no invalid lines break will be insert
 
 Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the documented object and detect missing/renamed/moved parameters:
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif "Update existing comment")
 
 ### Extend a documentation block
 
@@ -77,7 +77,7 @@ Available DocStyles and commands:
 
 You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif "Support completion")
 
 As you can see on previous example, pressing <kbd>Enter</kbd> consecutively would automatically continue the comment.
 
@@ -85,7 +85,7 @@ As you can see on previous example, pressing <kbd>Enter</kbd> consecutively woul
 
 To ease navigation, pressing <kbd>EOL</kbd> (<kbd>Super</kbd>+<kbd>Right</kbd> on OS/X) on end-of-line, will go to the next column.
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/eol.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/eol.gif "Intelligent move")
 
 ### Fold / Unfold comments
 
@@ -101,7 +101,7 @@ On OS/X:
    * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd>: Fold
    * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif "Comment folding")
 
 ## Tips / FAQ
 
@@ -196,57 +196,72 @@ Here's an example illustrating most of the features outlined above:
 
 ## Supported languages
 
-                   | Support Level
+Language           | Support Level
 ------------------ | ------------------
-ActionScript       | :white_check_mark: (generic)
-Apex               | :white_check_mark: (partial, Java based)
-AppleScript        | :white_check_mark: (generic)
-Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark: (only comment wrap and continuation)
-ASP                | :white_check_mark: (generic)
+ActionScript       | :white_check_mark: ([generic])
+Apex               | :white_check_mark: ([poor](# "Partial, Java based"))
+AppleScript        | :white_check_mark: ([generic])
+Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark: ([only wrap and continuation])
+ASP                | :white_check_mark: ([generic])
 C                  | :white_check_mark:
 C#                 | :white_check_mark:
 C++                | :white_check_mark: (including C++11)
-Clojure            | :white_check_mark: (generic)
-Coffee             | :white_check_mark: (generic)
-D                  | :white_check_mark: (generic)
-Dot                | :heavy_exclamation_mark: (only comment wrap and continuation) 
+Clojure            | :white_check_mark: ([generic])
+Coffee             | :white_check_mark: ([generic])
+D                  | :white_check_mark: ([generic])
+Dot                | :heavy_exclamation_mark: ([only wrap and continuation]) 
 Doxygen            | :white_check_mark:
-Fortran (Modern)   | :cloud: (generic, poor)
-Groovy             | :white_check_mark: (partial, extended Java syntax)
+Fortran (Modern)   | :cloud: ([generic], [poor])
+Groovy             | :white_check_mark: ([poor](# "Based on an extended Java syntax"))
 Haskell            | :white_check_mark:
-Haxe               | :white_check_mark: (generic)
-Erlang             | :cloud: (poor)
+Haxe               | :white_check_mark: ([generic])
+Erlang             | :cloud: ([generic], [poor])
 Java               | :white_check_mark:
 JavaScript         | :white_check_mark: (including ES/6)
-Julia              | :white_check_mark: (generic)
+Julia              | :white_check_mark: ([generic])
 Go                 | :white_check_mark:
-Lisp               | :white_check_mark: (generic)
-Lua                | :white_check_mark: (generic)
-Matlab             | :white_check_mark: (generic)
-NSIS               | :cloud: (only commenting style)
-Objective C        | :white_check_mark: (generic)
-Objective C++      | :white_check_mark: (generic)
-OCaml              | :white_check_mark: (generic)
-Pascal             | :white_check_mark: (generic)
-Perl               | :heavy_exclamation_mark: (only comment wrap and continuation)
+Lisp               | :white_check_mark: ([generic])
+Lua                | :white_check_mark: ([generic])
+Matlab             | :white_check_mark: ([generic])
+NSIS               | :cloud: ([generic], [poor])
+Objective C        | :white_check_mark: ([generic])
+Objective C++      | :white_check_mark: ([generic])
+OCaml              | :white_check_mark: ([generic])
+Pascal             | :white_check_mark: ([generic])
+Perl               | :heavy_exclamation_mark: ([only wrap and continuation])
 Php                | :white_check_mark:
 Python             | :white_check_mark:
-R                  | :white_check_mark: (generic)
-Razor              | :white_check_mark: (generic, limited functions detection)
-Ruby               | :white_check_mark: (Python based with extension)
+R                  | :white_check_mark: ([generic])
+Razor              | :white_check_mark: ([generic], [poor](# "Limited functions detection"))
+Ruby               | :white_check_mark: ([poor](# "Python based with extension"))
 Rust               | :white_check_mark:
-Scala              | :white_check_mark: (generic)
-Shell Script (bash)| :heavy_exclamation_mark: (only comment wrap and continuation)
-SQL                | :white_check_mark: (generic)
+Scala              | :white_check_mark: ([generic])
+Shell Script (bash)| :heavy_exclamation_mark: ([only wrap and continuation])
+SQL                | :white_check_mark: ([generic])
 Swift              | :white_check_mark:
-SystemVerilog      | :white_check_mark: (generic)
-TCL                | :white_check_mark: (generic)
-TypeScript         | :white_check_mark: (generic)
-Thrift             | :white_check_mark: (generic)
-Vhdl               | :cloud: (generic, poor)
-VEX                | :white_check_mark: (generic)
-WebIDL             | :white_check_mark: (generic)
-YAML               | :heavy_exclamation_mark: (only comment wrap and continuation)
+SystemVerilog      | :white_check_mark: ([generic])
+TCL                | :white_check_mark: ([generic])
+TypeScript         | :white_check_mark: ([generic])
+Thrift             | :white_check_mark: ([generic])
+Vhdl               | :cloud: ([generic], [poor])
+VEX                | :white_check_mark: ([generic])
+WebIDL             | :white_check_mark: ([generic])
+YAML               | :heavy_exclamation_mark: ([only wrap and continuation])
+
+[only wrap and continuation]: # "Support only comment wrap and comment continuation"
+[generic]: # "Parser Generic"
+[poor]: # "Parser have some restrictions"
+
+[ApiDoc]: http://apidocjs.com/
+[DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen
+[Doxygen]: http://www.stack.nl/~dimitri/doxygen/
+[Google Closure]: https://developers.google.com/closure/compiler/
+[JavaDoc]: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html
+[JsDoc]: http://usejsdoc.org
+[PhpDocumentor]: http://www.phpdoc.org/docs/latest/index.html
+[Sphinx]: http://sphinx-doc.org/
+[XmlDoc]: http://www.ecma-international.org/publications/standards/Ecma-334.htm
+[YuiDoc]: http://yui.github.io/yuidoc
 
 ## Survey
 
