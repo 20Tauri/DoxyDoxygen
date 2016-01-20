@@ -201,7 +201,7 @@ Here's an example illustrating most of the features outlined above:
            }
 
            // You don't have to be exhautive.
-           // If no rule match, 'block_layout_default' is consider
+           // If no rule match, 'block_layout_default' is considered
        ]
    }
 ```
