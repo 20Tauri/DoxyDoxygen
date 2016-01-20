@@ -5,6 +5,7 @@
 DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks using:
 
    * [ApiDoc]
+   * [AsDoc]
    * [Doxygen]
    * [Google Closure]
    * [JavaDoc]
@@ -17,10 +18,10 @@ DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentati
 
 It's designed to provide:
 
-   * a large support of languages (specially c++ or non `/*` commented languages),
-   * a deep language comprehension (examine function body to determine parameters types),
+   * capacity to *update* existing comments,
+   * a [https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md](large support of languages) (with more than 40 languages supported)
    * an easy and powerfull documenting style configuration,
-   * capacity to update existing comments,
+   * a deep language comprehension (examine function body to determine parameters types),
    * sub-plugins support,
    * ...
 
@@ -59,6 +60,16 @@ Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif "Update existing comment")
 
+### Switch betwwen commenting styles
+
+To switch betwwen your preferred commenting styles, press <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> on OS/X).
+
+You can also find more flexible commands in the palette.
+
+### Generate documentation
+
+If you use Doxygen, you can generate your docmuentation directly from the palette.
+
 ### Extend a documentation block
 
 DoxyDoxygen allows auto-completion. A large set of commands is available, but only commands matching your selected DocStyles are suggested...
@@ -66,6 +77,7 @@ DoxyDoxygen allows auto-completion. A large set of commands is available, but on
 Available DocStyles and commands:
 
    * [ApiDoc](http://apidocjs.com/#params)
+   * [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
    * [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
    * [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
    * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
@@ -194,65 +206,8 @@ Here's an example illustrating most of the features outlined above:
    }
 ```
 
-## Supported languages
-
-Language           | Support Level
------------------- | ------------------
-ActionScript       | :white_check_mark: ([generic])
-Apex               | :white_check_mark: ([poor](# "Partial, Java based"))
-AppleScript        | :white_check_mark: ([generic])
-Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark: ([only wrap and continuation])
-ASP                | :white_check_mark: ([generic])
-C                  | :white_check_mark:
-C#                 | :white_check_mark:
-C++                | :white_check_mark: (including C++11)
-Clojure            | :white_check_mark: ([generic])
-Coffee             | :white_check_mark: ([generic])
-D                  | :white_check_mark: ([generic])
-Dot                | :heavy_exclamation_mark: ([only wrap and continuation]) 
-Doxygen            | :white_check_mark:
-Fortran (Modern)   | :cloud: ([generic], [poor])
-Groovy             | :white_check_mark: ([poor](# "Based on an extended Java syntax"))
-Haskell            | :white_check_mark:
-Haxe               | :white_check_mark: ([generic])
-Erlang             | :cloud: ([generic], [poor])
-Java               | :white_check_mark:
-JavaScript         | :white_check_mark: (including ES/6)
-Julia              | :white_check_mark: ([generic])
-Go                 | :white_check_mark:
-Lisp               | :white_check_mark: ([generic])
-Lua                | :white_check_mark: ([generic])
-Matlab             | :white_check_mark: ([generic])
-NSIS               | :cloud: ([generic], [poor])
-Objective C        | :white_check_mark: ([generic])
-Objective C++      | :white_check_mark: ([generic])
-OCaml              | :white_check_mark: ([generic])
-Pascal             | :white_check_mark: ([generic])
-Perl               | :heavy_exclamation_mark: ([only wrap and continuation])
-Php                | :white_check_mark:
-Python             | :white_check_mark:
-R                  | :white_check_mark: ([generic])
-Razor              | :white_check_mark: ([generic], [poor](# "Limited functions detection"))
-Ruby               | :white_check_mark: ([poor](# "Python based with extension"))
-Rust               | :white_check_mark:
-Scala              | :white_check_mark: ([generic])
-Shell Script (bash)| :heavy_exclamation_mark: ([only wrap and continuation])
-SQL                | :white_check_mark: ([generic])
-Swift              | :white_check_mark:
-SystemVerilog      | :white_check_mark: ([generic])
-TCL                | :white_check_mark: ([generic])
-TypeScript         | :white_check_mark: ([generic])
-Thrift             | :white_check_mark: ([generic])
-Vhdl               | :cloud: ([generic], [poor])
-VEX                | :white_check_mark: ([generic])
-WebIDL             | :white_check_mark: ([generic])
-YAML               | :heavy_exclamation_mark: ([only wrap and continuation])
-
-[only wrap and continuation]: # "Support only comment wrap and comment continuation"
-[generic]: # "Parser Generic"
-[poor]: # "Parser have some restrictions"
-
 [ApiDoc]: http://apidocjs.com/
+[AsDoc]: http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html
 [DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen
 [Doxygen]: http://www.stack.nl/~dimitri/doxygen/
 [Google Closure]: https://developers.google.com/closure/compiler/
@@ -265,8 +220,9 @@ YAML               | :heavy_exclamation_mark: ([only wrap and continuation])
 
 ## Survey
 
-To help to improve this software, I need to know your needs...
-Here, you can find a short [survey](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
+To help to improve this software, I need to know your needs... Here, you can find some surveys:
+   * [survey #1](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
+   * [survey #2](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=762ed51).
 
 ## License
 

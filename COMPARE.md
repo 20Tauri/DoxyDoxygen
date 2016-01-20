@@ -25,6 +25,7 @@ Opened Issues (15-jan-2016)     | 3                  | 105                      
                    | [DoxyDoxygen]      | DocBlockr
 ------------------ | ------------------ | ------------------
 [ApiDoc]           | :white_check_mark: | :x:
+[AsDoc]            | :white_check_mark: | :white_check_mark:
 [Doxygen]          | :white_check_mark: | :x:
 [Google Closure]   | :white_check_mark: | :white_check_mark: 
 [JavaDoc]          | :white_check_mark: | :cloud: (partial)
@@ -34,7 +35,6 @@ Opened Issues (15-jan-2016)     | 3                  | 105                      
 [XmlDoc]           | :white_check_mark: | :x:
 [YuiDoc]           | :white_check_mark: | :white_check_mark: 
 
-
 ### Supported Languages
 
                    | [DoxyDoxygen]                   | DocBlockr
@@ -42,6 +42,7 @@ Opened Issues (15-jan-2016)     | 3                  | 105                      
 ActionScript       | :white_check_mark: (generic)    | :white_check_mark:
 Apex               | :white_check_mark: (partial, Java based) | :white_check_mark: (partial, java based)
 AppleScript        | :white_check_mark: (generic)    | :x:
+Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 ASP                | :white_check_mark: (generic)    | :x:
 C                  | :white_check_mark:              | :white_check_mark: (official but poor)
 C#                 | :white_check_mark:              | :x:
@@ -49,6 +50,7 @@ C++                | :white_check_mark: (including C++11) | :white_check_mark: (
 Clojure            | :white_check_mark: (generic)    | :x:
 Coffee             | :white_check_mark: (generic)    | :white_check_mark:
 D                  | :white_check_mark: (generic)    | :x:
+Dot                | :heavy_exclamation_mark: (only wrap and continuation)  | :x:
 Doxygen            | :white_check_mark:              | :x:
 Fortran (Modern)   | :cloud: (generic, poor)         | :x:
 Groovy             | :white_check_mark: (partial, extended Java syntax) | :white_check_mark: (partial, java based)
@@ -62,11 +64,12 @@ Go                 | :white_check_mark:              | :x:
 Lisp               | :white_check_mark: (generic)    | :x:
 Lua                | :white_check_mark: (generic)    | :x:
 Matlab             | :white_check_mark: (generic)    | :x:
-NSIS               | :cloud: (only commenting style) | :x:
+NSIS               | :cloud: (generic, poor)         | :x:
 Objective C        | :white_check_mark: (generic)    | :white_check_mark: (poor ?)
 Objective C++      | :white_check_mark: (generic)    | :white_check_mark: (poor ?)
 OCaml              | :white_check_mark: (generic)    | :x:
 Pascal             | :white_check_mark: (generic)    | :x:
+Perl               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 Php                | :white_check_mark:              | :white_check_mark:
 Python             | :white_check_mark:              | :x:
 R                  | :white_check_mark: (generic)    | :x:
@@ -74,6 +77,7 @@ Razor              | :white_check_mark: (generic, limited functions detection)  
 Ruby               | :white_check_mark: (Python based with extension) | :x:
 Rust               | :white_check_mark:              | :white_check_mark:
 Scala              | :white_check_mark: (generic)    | :x:
+Shell Script (bash)| :heavy_exclamation_mark: (only wrap and continuation) | :x:
 SQL                | :white_check_mark: (generic)    | :x:
 Swift              | :white_check_mark:              | :x:
 SystemVerilog      | :white_check_mark: (generic)    | :x:
@@ -83,12 +87,20 @@ Thrift             | :white_check_mark: (generic)    | :x:
 Vhdl               | :cloud: (generic, poor)         | :x:
 VEX                | :white_check_mark: (generic)    | :x:
 WebIDL             | :white_check_mark: (generic)    | :x:
+YAML               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 
+[only wrap and continuation]: # "Support only comment wrap and comment continuation"
+[generic]: # "Parser Generic"
+[poor]: # "Parser have some restrictions"
+
+[ApiDoc]: http://apidocjs.com/
+[AsDoc]: http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html
 [DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen
 [Doxygen]: http://www.stack.nl/~dimitri/doxygen/
 [Google Closure]: https://developers.google.com/closure/compiler/
 [JavaDoc]: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html
 [JsDoc]: http://usejsdoc.org
 [PhpDocumentor]: http://www.phpdoc.org/docs/latest/index.html
+[Sphinx]: http://sphinx-doc.org/
 [XmlDoc]: http://www.ecma-international.org/publications/standards/Ecma-334.htm
 [YuiDoc]: http://yui.github.io/yuidoc
