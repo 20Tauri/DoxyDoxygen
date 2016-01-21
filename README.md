@@ -60,9 +60,9 @@ Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif "Update existing comment")
 
-### Switch betwwen commenting styles
+### Switch between commenting styles
 
-To switch betwwen your preferred commenting styles, press <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> on OS/X).
+To switch between your preferred commenting styles, press <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> on OS/X).
 
 You can also find more flexible commands in the palette.
 
