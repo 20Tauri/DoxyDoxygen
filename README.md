@@ -68,7 +68,8 @@ You can also find more flexible commands in the palette.
 
 ### Generate documentation
 
-If you use Doxygen, you can generate your docmuentation directly from the palette.
+If you use Doxygen, you can generate your documentation directly from the palette.
+An assistant will help you to download tools and configure your project.
 
 ### Extend a documentation block
 
