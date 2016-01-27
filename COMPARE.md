@@ -84,7 +84,7 @@ SystemVerilog      | :white_check_mark: (generic)    | :x:
 TCL                | :white_check_mark: (generic)    | :x:
 TypeScript         | :white_check_mark: (generic)    | :white_check_mark:
 Thrift             | :white_check_mark: (generic)    | :x:
-Vhdl               | :cloud: (generic, poor)         | :x:
+Vhdl               | :white_check_mark: (generic)    | :x:
 VEX                | :white_check_mark: (generic)    | :x:
 WebIDL             | :white_check_mark: (generic)    | :x:
 YAML               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
