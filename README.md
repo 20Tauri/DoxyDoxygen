@@ -135,28 +135,30 @@ Comment continuation is optionnal (parameter `continuation_on_last_comment`), bu
 Since version 0.27, `block_layout` parameter may be context dependant. To set up a context dependant, you have to define a list of dictionnaries.
 
 Each dictionnary should have two keys:
-   - `block_layout` (same format a if it's an array of string)
-   - `context` similar format as sublime text rule
 
-Each context, is a list of conditions. Each condition is compose t
-   - `key`: Name of a context operand to query. May be one of:
-      - `kind`
-         - "function", "lambda", "generator", "constructor",
-         - "class", "struct", "union", "enum"
-         - "var", "constant"
-      - `name`
-      - `nb_params` (only for "function", "lambda"...)
-      - `nb_tparams`
-      - `row`
-      - `col`
-   - `operator`: Type of test to perform against `key`. May be one of:
-      - `regex_match`
-      - `equal`
-      - `not_equal`
-      - `greater_than`
-      - `lower_than`
-      - `regex_contains`
-   - `operand`: Value against which the result of `key` is tested.
+   * `block_layout` (same format a if it's an array of string)
+   * `context` similar format as sublime text rule
+
+Each context, is a list of conditions. Each condition is composed by
+
+   * `key`: Name of a context operand to query. May be one of:
+      * `kind`
+         * "function", "lambda", "generator", "constructor",
+         * "class", "struct", "union", "enum"
+         * "var", "constant"
+      * `name`
+      * `nb_params` (only for "function", "lambda"...)
+      * `nb_tparams`
+      * `row`
+      * `col`
+   * `operator`: Type of test to perform against `key`. May be one of:
+      * `regex_match`
+      * `equal`
+      * `not_equal`
+      * `greater_than`
+      * `lower_than`
+      * `regex_contains`
+   * `operand`: Value against which the result of `key` is tested.
 
 Here's an example illustrating most of the features outlined above:
 ```
@@ -222,6 +224,7 @@ Here's an example illustrating most of the features outlined above:
 ## Survey
 
 To help to improve this software, I need to know your needs... Here, you can find some surveys:
+
    * [survey #1](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
    * [survey #2](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=762ed51).
 
