@@ -59,6 +59,7 @@ Haxe               | :white_check_mark: (generic)    | :white_check_mark: (Actio
 Erlang             | :cloud: (poor)                  | :x:
 Java               | :white_check_mark:              | :white_check_mark:
 JavaScript         | :white_check_mark: (including ES/6) | :white_check_mark: (including ES/6)
+Jinja2             | :cloud: (generic, poor)         | :x:
 Julia              | :white_check_mark: (generic)    | :x:
 Go                 | :white_check_mark:              | :x:
 Lisp               | :white_check_mark: (generic)    | :x:
@@ -76,6 +77,7 @@ R                  | :white_check_mark: (generic)    | :x:
 Razor              | :white_check_mark: (generic, limited functions detection)    | :x:
 Ruby               | :white_check_mark: (Python based with extension) | :x:
 Rust               | :white_check_mark:              | :white_check_mark:
+Sass / Scss        | :cloud: (poor, requiere "Syntax highlight for Sass")         | :x:
 Scala              | :white_check_mark: (generic)    | :x:
 Shell Script (bash)| :heavy_exclamation_mark: (only wrap and continuation) | :x:
 SQL                | :white_check_mark: (generic)    | :x:
