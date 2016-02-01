@@ -18,7 +18,7 @@ DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentati
 
 It's designed to provide:
 
-   * capacity to *update* existing comments,
+   * capability to *update* existing comments,
    * a [large support of languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md) (with more than 40 languages supported)
    * an easy and powerfull documenting style configuration,
    * a deep language comprehension (examine function body to determine parameters types),
