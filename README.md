@@ -11,6 +11,7 @@ DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentati
    * [JavaDoc]
    * [JsDoc]
    * [PhpDocumentor]
+   * [SassDoc]
    * [Sphinx]
    * [XmlDoc]
    * [YuiDoc]
@@ -217,6 +218,7 @@ Here's an example illustrating most of the features outlined above:
 [JavaDoc]: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html
 [JsDoc]: http://usejsdoc.org
 [PhpDocumentor]: http://www.phpdoc.org/docs/latest/index.html
+[SassDoc]: http://sassdoc.com/
 [Sphinx]: http://sphinx-doc.org/
 [XmlDoc]: http://www.ecma-international.org/publications/standards/Ecma-334.htm
 [YuiDoc]: http://yui.github.io/yuidoc

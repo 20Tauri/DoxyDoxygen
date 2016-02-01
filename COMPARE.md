@@ -31,9 +31,11 @@ Opened Issues (15-jan-2016)     | 3                  | 105                      
 [JavaDoc]          | :white_check_mark: | :cloud: (partial)
 [JsDoc]            | :white_check_mark: | :white_check_mark: 
 [PhpDocumentor]    | :white_check_mark: | :white_check_mark: 
+[SassDoc]          | :white_check_mark: | :x: 
 [Sphinx]           | :cloud:            | :x: 
 [XmlDoc]           | :white_check_mark: | :x:
 [YuiDoc]           | :white_check_mark: | :white_check_mark: 
+
 
 ### Supported Languages
 
@@ -103,6 +105,7 @@ YAML               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 [JavaDoc]: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html
 [JsDoc]: http://usejsdoc.org
 [PhpDocumentor]: http://www.phpdoc.org/docs/latest/index.html
+[SassDoc]: http://sassdoc.com/
 [Sphinx]: http://sphinx-doc.org/
 [XmlDoc]: http://www.ecma-international.org/publications/standards/Ecma-334.htm
 [YuiDoc]: http://yui.github.io/yuidoc
