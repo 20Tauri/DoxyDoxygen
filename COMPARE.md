@@ -17,7 +17,7 @@ Configurable Layout             | :white_check_mark: | :cloud: (limited)        
 Docstring support               | :white_check_mark: | :x: (but fork available)           | :white_check_mark:
 Plugins support                 | :white_check_mark: | :x:                                | :x:
 Documentation Export (HTML, RTF, Latex, CHM) | :cloud: (Doxygen only) | :x:                                | :x:
-Opened Issues (15-jan-2016)     | 3                  | 105                                | 0
+Opened Issues (01-feb-2016)     | 2                  | 106                                | 1
 
 
 ### Supported Documentation Tools
@@ -46,6 +46,7 @@ Apex               | :white_check_mark: (partial, Java based) | :white_check_mar
 AppleScript        | :white_check_mark: (generic)    | :x:
 Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 ASP                | :white_check_mark: (generic)    | :x:
+Bash               | :white_check_mark:              | :x:
 C                  | :white_check_mark:              | :white_check_mark: (official but poor)
 C#                 | :white_check_mark:              | :x:
 C++                | :white_check_mark: (including C++11) | :white_check_mark: (official but poor)
