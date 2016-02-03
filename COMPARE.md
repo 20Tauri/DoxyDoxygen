@@ -94,8 +94,8 @@ VEX                | :white_check_mark: (generic)    | :x:
 WebIDL             | :white_check_mark: (generic)    | :x:
 YAML               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 
-[only wrap and continuation]: # "Support only comment wrap and comment continuation"
-[generic]: # "Parser Generic"
+[only wrap and continuation]: # "Handle only comment wrap and comment continuation"
+[generic]: # "Generic Parser"
 [poor]: # "Parser have some restrictions"
 
 [ApiDoc]: http://apidocjs.com/
