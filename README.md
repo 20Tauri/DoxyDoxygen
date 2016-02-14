@@ -21,7 +21,7 @@ It's designed to provide:
 
    * capability to *update* existing comments,
    * a [large support of languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md) (with more than 40 languages supported)
-   * an easy and powerfull documenting style configuration,
+   * an easy and powerful documenting style configuration,
    * a deep language comprehension (examine function body to determine parameters types),
    * sub-plugins support,
    * ...
@@ -167,11 +167,22 @@ Here's an example illustrating most of the features outlined above:
         "Doxygen": [
            {
                "tags": [
-                   "@brief            I'm private class"
+                   "@brief            I'm the {name} class"
                ],
                "context": [
                    { "key": "name",      "operator": "regex_match",    "operand": "^_.*$" },
                    { "key": "kind",      "operator": "equal",          "operand": "class" }
+               ]
+           },
+
+           // Autofill description for getters
+           {
+               "tags": [
+                   "@brief            Get {name:doxy_words(1,);doxy_lower();}",
+                   "@return           {name:doxy_words(1,);doxy_capitalize();}"
+               ],
+               "context": [
+                   { "key": "name",      "operator": "regex_match",          "operand": "get[A-Z_].*" },
                ]
            },
 
