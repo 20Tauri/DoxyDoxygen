@@ -247,3 +247,14 @@ DoxyDoxygen may be downloaded and evaluated for free, however a license must be 
 [End User License Agreement](http://20tauri.free.fr/DoxyDoxygen/#page_eula) for further informations.
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXEEET3XT3VYG)
+
+*SPECIAL OFFER (until 31st march 2016) - 33% discount*
+
+-> Buy 2 licenses a third one will be offered. <-
+-> Current price is 6 euros per license. <-
+-> With this offer (that reduce PayPal fee), price is only 4 euros per license. <-
+
+To be fair, if your are previously licencied user and one of your friend/collegue buy a
+license during this period, a third one will be offer. The new buyer simply have to send
+an email to "you, me, person that will receive the license". The individual license will
+be sent directly to this person after a week.
