@@ -60,11 +60,13 @@ Groovy             | :white_check_mark: (partial, extended Java syntax) | :white
 Haskell            | :white_check_mark:              | :x:
 Haxe               | :white_check_mark: (generic)    | :white_check_mark: (ActionScript based)
 Erlang             | :cloud: (poor)                  | :x:
+Elixir             | :cloud: (poor)                  | :x:
 Java               | :white_check_mark:              | :white_check_mark:
 JavaScript         | :white_check_mark: (including ES/6) | :white_check_mark: (including ES/6)
 Jinja2             | :cloud: (generic, poor)         | :x:
 Julia              | :white_check_mark: (generic)    | :x:
 Go                 | :white_check_mark:              | :x:
+Graddle            | :white_check_mark: (generic)    | :x:
 Lisp               | :white_check_mark: (generic)    | :x:
 Lua                | :white_check_mark: (generic)    | :x:
 Matlab             | :white_check_mark: (generic)    | :x:
@@ -75,6 +77,7 @@ OCaml              | :white_check_mark: (generic)    | :x:
 Pascal             | :white_check_mark: (generic)    | :x:
 Perl               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 Php                | :white_check_mark:              | :white_check_mark:
+Processing         | :white_check_mark:              | :x:
 Python             | :white_check_mark:              | :x:
 R                  | :white_check_mark: (generic)    | :x:
 Razor              | :white_check_mark: (generic, limited functions detection)    | :x:
