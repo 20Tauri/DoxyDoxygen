@@ -23,9 +23,9 @@ Supports:
    * [XmlDoc]
    * [YuiDoc]
    * ...
-   * plugins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))
    * configurables styles,
-   * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages),
+   * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages)
+   * plugins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))...
 
 ## Usage
 
@@ -132,7 +132,7 @@ Comment continuation is optionnal (parameter `continuation_on_last_comment`), bu
 
 > _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
 
-##### How can I add tags dynamicly ?
+##### Is it possible to add tags dynamicly ?
 
 Since version 0.27, `block_layout` parameter may be context dependant. To set up a context dependant, you have to define a list of dictionnaries.
 
@@ -239,8 +239,8 @@ Here's an example illustrating most of the features outlined above:
 
 To help to improve this software, I need to know your needs... Here, you can find some surveys:
 
-   * [survey #1](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
-   * [survey #2](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=762ed51).
+   * [general survey](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
+   * [about auto-filled description](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=21232f297a57a5a743894a0e4a801fc3-33f3d2a).
 
 ## License
 
