@@ -22,8 +22,8 @@ Supports:
    * [Sphinx]
    * [XmlDoc]
    * [YuiDoc]
-   * and it's extendable using plugins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))
    * ...
+   * plugins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))
    * configurables styles,
    * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages),
 
