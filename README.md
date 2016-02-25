@@ -5,7 +5,7 @@
 DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks.
 
    * Write code
-   * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, code is parsed and a skeleton documentation is written for you
+   * Press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X), code is parsed and a skeleton documentation is written for you
    * Update your code
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
 
