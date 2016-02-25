@@ -23,7 +23,7 @@ Supports:
    * [XmlDoc]
    * [YuiDoc]
    * ...
-   * and a [large support of programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md) (more than 40)
+   * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md)
    * configurables styles,
    * sub-plugins support,
    * ...
