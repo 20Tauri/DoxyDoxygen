@@ -24,8 +24,8 @@ Supports:
    * [YuiDoc]
    * ...
    * configurables styles,
-   * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md),
-   * [sub-plugins support](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages)...
+   * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages),
+   * [sub-plugins support](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc)...
 
 ## Usage
 
