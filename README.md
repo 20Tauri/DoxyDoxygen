@@ -2,7 +2,14 @@
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
 
-DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks using:
+DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks.
+
+   * Write code
+   * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, code is parsed and a skeleton documentation is written for you
+   * Update your code
+   * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
+
+Supports:
 
    * [ApiDoc]
    * [AsDoc]
@@ -16,13 +23,8 @@ DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentati
    * [XmlDoc]
    * [YuiDoc]
    * ...
-
-It's designed to provide:
-
-   * capability to *update* existing comments,
-   * a [large support of languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md) (with more than 40 languages supported)
-   * an easy and powerful documenting style configuration,
-   * a deep language comprehension (examine function body to determine parameters types),
+   * and a [large support of programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md) (more than 40)
+   * configurables styles,
    * sub-plugins support,
    * ...
 
@@ -30,9 +32,9 @@ It's designed to provide:
 
 ### Create a documentation block
 
-Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> would automatically insert the corresponding documentation.
+Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> will automatically insert the corresponding documentation. There are no keyboard shortcuts to memorize.
 
-There are no keyboard shortcuts to memorize. But, to be more efficicent, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> after function definition.
+To be more efficicent, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after function definition.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
@@ -48,14 +50,14 @@ If a function has a template parameter, a `@tparam` property is automatically ad
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/template.gif "Support @param")
 
-And, of course, class (with template or not) are also supported
+And, of course, classes (with template or not) are also supported:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif "Document class")
 
 ### Update / Wrap an existing documentation block
 
 To wrap comment, press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X).
-As DoxyDoxygen knows the Doxygen commands, no invalid lines break will be inserted.
+As DoxyDoxygen knows the Doxygen commands, no invalid line break will be inserted.
 
 Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the documented object and detect missing/renamed/moved parameters:
 
