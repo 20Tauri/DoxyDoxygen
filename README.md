@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
 
-DoxyDoxygen is a SublimeText plugin that allows you to auto-complete documentation blocks.
+DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation blocks.
 
    * Write code
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd> (+<kbd>Super</kbd> on OS/X), code is parsed and a skeleton documentation is written for you
@@ -23,9 +23,9 @@ Supports:
    * [XmlDoc]
    * [YuiDoc]
    * ...
-   * configurables styles,
+   * configurable styles,
    * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages)
-   * plugins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))...
+   * plug-ins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))...
 
 ## Usage
 
@@ -33,11 +33,11 @@ Supports:
 
 Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> will automatically insert the corresponding documentation. There are no keyboard shortcuts to memorize.
 
-To be more efficicent, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after function definition.
+To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after function definition.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
-Types are automaticly deduce from code:
+Types are automatically deduce from code:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/javascript.gif "Guess types")
 
@@ -122,21 +122,21 @@ On OS/X:
 
 ##### How can I switch to a different "preferred_comment_style" ?
 
-On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferered style that match the language. To use a specific comment style, you have to start your comment style (ex: '// ='), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
+On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferred style that match the language. To use a specific comment style, you have to start your comment style (ex: '// ='), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
 
 > _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
 
 ##### How to avoid comment continuation ?
 
-Comment continuation is optionnal (parameter `continuation_on_last_comment`), but if activated, you can press <kbd>Shift</kbd>+<kbd>Return</kbd> to stop continuation.
+Comment continuation is optional (parameter `continuation_on_last_comment`), but if activated, you can press <kbd>Shift</kbd>+<kbd>Return</kbd> to stop continuation.
 
 > _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
 
-##### Is it possible to add tags dynamicly ?
+##### Is it possible to add tags dynamically ?
 
-Since version 0.27, `block_layout` parameter may be context dependant. To set up a context dependant, you have to define a list of dictionnaries.
+Since version 0.27, `block_layout` parameter may be context dependent. To set up a context dependent, you have to define a list of dictionaries.
 
-Each dictionnary should have two keys:
+Each dictionary should have two keys:
 
    * `block_layout` (same format a if it's an array of string)
    * `context` similar format as sublime text rule
@@ -216,7 +216,7 @@ Here's an example illustrating most of the features outlined above:
                ]
            }
 
-           // You don't have to be exhautive.
+           // You don't have to be exhaustive.
            // If no rule match, 'block_layout_default' is considered
        ]
    }
