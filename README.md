@@ -2,14 +2,16 @@
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
 
-DoxyDoxygen is a SublimeText plug-in that allows you to auto-complete documentation blocks.
+DoxyDoxygen is a plug-in for Sublime Text that aims to save a lot of time and effort when creating and updating documentation comments in source code.
+
+How does it work ?
 
    * Write code
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd> (+<kbd>Super</kbd> on OS/X), code is parsed and a skeleton documentation is written for you
    * Update your code
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
 
-Supports:
+DoxyDoxygen supports a wide range of languages as well as many documentation comment formats and styles. If the default settings are not exactly as you require, it can be easily configured to suit your needs.
 
    * [ApiDoc]
    * [AsDoc]
