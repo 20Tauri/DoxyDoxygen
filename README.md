@@ -20,6 +20,7 @@ DoxyDoxygen supports a wide range of languages as well as many documentation com
    * [JavaDoc]
    * [JsDoc]
    * [PhpDocumentor]
+   * 
    * [SassDoc]
    * [Sphinx]
    * [XmlDoc]
@@ -236,6 +237,7 @@ Here's an example illustrating most of the features outlined above:
 [Sphinx]: http://sphinx-doc.org/
 [XmlDoc]: http://www.ecma-international.org/publications/standards/Ecma-334.htm
 [YuiDoc]: http://yui.github.io/yuidoc
+[NaturalDocs]: http://www.naturaldocs.org/documenting/reference.html#PageTitles
 
 ## Survey
 
