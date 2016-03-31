@@ -74,6 +74,7 @@ NSIS               | :cloud: (generic, poor)         | :x:
 Objective C        | :white_check_mark: (generic)    | :white_check_mark: (poor ?)
 Objective C++      | :white_check_mark: (generic)    | :white_check_mark: (poor ?)
 OCaml              | :white_check_mark: (generic)    | :x:
+MQL4               | :white_check_mark:              | :x:
 Pascal             | :white_check_mark: (generic)    | :x:
 Perl               | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 Php                | :white_check_mark:              | :white_check_mark:
