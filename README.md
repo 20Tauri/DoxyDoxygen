@@ -1,6 +1,6 @@
 ## Welcome to DoxyDoxygen
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/demo.gif)
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/first_word.gif)
 
 DoxyDoxygen is a plug-in for Sublime Text that aims to save a lot of time and effort when creating and updating documentation comments in source code.
 
@@ -27,6 +27,7 @@ DoxyDoxygen supports a wide range of languages as well as many documentation com
    * [YuiDoc]
    * ...
    * configurable styles,
+   * auto-filled descriptions,
    * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages)
    * plug-ins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))...
 
