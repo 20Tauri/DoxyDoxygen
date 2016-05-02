@@ -10,6 +10,7 @@ Type Detection                  | :white_check_mark: (body inspection) | :cloud:
 Documentation Update            | :white_check_mark: | :x:                                | :white_check_mark: 
 One Key Comment Creation        | :white_check_mark: | :x:                                | :white_check_mark: 
 Autofilled description          | :white_check_mark: | :x:                                | :x:
+Translation services included   | :white_check_mark: | :x:                                | :x:
 Snippets                        | :white_check_mark: | :white_check_mark:                 | :x:
 Comments Continuation           | :white_check_mark: | :white_check_mark:                 | :x:
 Comments Folding                | :white_check_mark: | :x:                                | :x:
