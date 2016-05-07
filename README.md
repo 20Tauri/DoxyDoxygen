@@ -256,8 +256,7 @@ DoxyDoxygen may be downloaded and evaluated for free, however a license must be 
 
 **SPECIAL OFFER (until 31st may 2016) - 33% discount**
 
-Buy 2 licenses a third one will be offered. Current price is 6 euros per license.
-With this offer (that reduce PayPal fee), price is only 4 euros per license.
+Buy 2 licenses a third one will be offered.
 
 To be fair, if your are previously licensed user and one of your friend/colleague buy a
 license during this period, a third one will be offer. The new buyer simply have to send
