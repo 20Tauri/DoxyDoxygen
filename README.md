@@ -28,6 +28,8 @@ DoxyDoxygen supports a wide range of languages as well as many documentation com
    * ...
    * configurable styles,
    * auto-filled descriptions,
+   * auto-translated descriptions,
+   * on demand translation,
    * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages)
    * plug-ins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))...
 
@@ -79,7 +81,7 @@ An assistant will help you to download tools and configure your project.
 
 ### Extend a documentation block
 
-DoxyDoxygen allows auto-completion. A large set of commands is available, but only commands matching your selected DocStyles are suggested...
+DoxyDoxygen allows auto-completion. A large set of commands is available, but only commands matching your configured DocStyles are suggested...
 
 Available DocStyles and commands:
 
@@ -126,7 +128,9 @@ On OS/X:
 
 ##### How can I switch to a different "preferred_comment_style" ?
 
-On comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferred style that match the language. To use a specific comment style, you have to start your comment style (ex: '// ='), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
+See section "Switch between commenting styles".
+
+Alternativly, on comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferred style that match the language. To use a specific comment style, you have to start your comment style (ex: '// ='), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
 
 > _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
 
