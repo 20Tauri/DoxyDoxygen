@@ -126,6 +126,24 @@ On OS/X:
 
 ## Tips / FAQ
 
+##### Is it possible to disable default parameter description ?
+
+To disable autofill, update your configuration file with one of the following line
+   - to disable the default rules:  `"autofill_rules_default": [],`
+   - to disable all rules: `"autofill_reliability_percentage": 0, `
+
+If you prefer to have no description, you can try:
+
+```json
+    "autofill_rules": [
+        {
+            "parameter_description": [
+                "."
+            ]
+        }
+    ],
+```
+
 ##### How can I switch to a different "preferred_comment_style" ?
 
 See section "Switch between commenting styles".
