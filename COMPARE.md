@@ -48,6 +48,7 @@ Apex               | :white_check_mark: (partial, Java based) | :white_check_mar
 AppleScript        | :white_check_mark: (generic)    | :x:
 Assembler (x86, m68k, arm, sparc...) | :heavy_exclamation_mark: (only wrap and continuation) | :x:
 ASP                | :white_check_mark: (generic)    | :x:
+AutoHotKey         | :cloud: (poor)                  | :x:
 Bash               | :white_check_mark:              | :x:
 C                  | :white_check_mark:              | :white_check_mark: (official but poor)
 C#                 | :white_check_mark:              | :x:
