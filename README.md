@@ -43,7 +43,7 @@ To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Su
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
-Types are automatically deduce from code:
+Types are automatically deduced from code:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/javascript.gif "Guess types")
 
@@ -164,8 +164,8 @@ Since version 0.27, `block_layout` parameter may be context dependent. To set up
 
 Each dictionary should have two keys:
 
-   * `block_layout` (same format a if it's an array of string)
-   * `context` similar format as sublime text rule
+   * `tags` (same format a if it's an array of string)
+   * `context` similar to `sublime text context format
 
 Each context, is a list of conditions. Each condition is composed by
 
