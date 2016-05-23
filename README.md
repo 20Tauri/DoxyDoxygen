@@ -37,9 +37,9 @@ DoxyDoxygen supports a wide range of languages as well as many documentation com
 
 ### Create a documentation block
 
-Insert a Doxygen comment introducer (ex: `##` for python) before a declaration, then <kbd>Enter</kbd> will automatically insert the corresponding documentation. There are no keyboard shortcuts to memorize.
+Insert a Doxygen comment (ex: `##` for python) before a declaration, then press <kbd>Enter</kbd>. The corresponding documentation will automatically inserted. There are no keyboard shortcuts to memorize.
 
-To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after function definition.
+To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after the function definition.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
@@ -49,7 +49,7 @@ Types are automatically deduce from code:
 
 Even hard to parse languages are well supported:
 
-![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif "Support C++"")
+![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif "Support C++")
 
 If a function has a template parameter, a `@tparam` property is automatically added:
 
@@ -134,7 +134,7 @@ To disable autofill, update your configuration file with one of the following li
 
 If you prefer to have no description, you can try:
 
-```json
+```javascript
     "autofill_rules": [
         {
             "parameter_description": [
