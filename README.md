@@ -156,8 +156,6 @@ Alternativly, on comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first 
 
 Comment continuation is optional (parameter `continuation_on_last_comment`), but if activated, you can press <kbd>Shift</kbd>+<kbd>Return</kbd> to stop continuation.
 
-> _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
-
 ##### Is it possible to add tags dynamically ?
 
 Since version 0.27, `block_layout` parameter may be context dependent. To set up a context dependent, you have to define a list of dictionaries.
