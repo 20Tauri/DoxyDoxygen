@@ -274,11 +274,3 @@ DoxyDoxygen may be downloaded and evaluated for free, however a license must be 
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXEEET3XT3VYG)
 
-**SPECIAL OFFER ON PERSONAL LICENSE (until 31st may 2016)**
-
-Buy 2 licenses a third one will be offered. 
-
-To be fair, if your are previously licensed user and one of your friend/colleague buy a
-license during this period, a third one will be offer. The new buyer simply have to send
-an email to "you, me, person that will receive the license". The individual license will
-be sent directly to this person after a week.
