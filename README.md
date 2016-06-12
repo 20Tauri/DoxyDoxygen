@@ -40,6 +40,7 @@ DoxyDoxygen supports a wide range of languages as well as many documentation com
 Insert a Doxygen comment (ex: `##` for python) before a declaration, then press <kbd>Enter</kbd>. The corresponding documentation will automatically inserted. There are no keyboard shortcuts to memorize.
 
 To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after the function definition.
+A documentation block is written for you.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
@@ -55,7 +56,7 @@ If a function has a template parameter, a `@tparam` property is automatically ad
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/template.gif "Support @param")
 
-And, of course, classes (with template or not) are also supported:
+And, of course, classes (with template or not) are also supported.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif "Document class")
 
@@ -72,7 +73,7 @@ Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the
 
 To switch between your preferred commenting styles, press <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> on OS/X).
 
-You can also find more flexible commands in the palette.
+You can also find more flexible commands in the Command Palette.
 
 ### Generate documentation
 
@@ -81,9 +82,11 @@ An assistant will help you to download tools and configure your project.
 
 ### Extend a documentation block
 
-DoxyDoxygen allows auto-completion. A large set of commands is available, but only commands matching your configured DocStyles are suggested...
+#### Auto-completion
 
-Available DocStyles and commands:
+DoxyDoxygen allows auto-completion. A large set of commands is available,
+
+Available commands depends of :term:`doc-style`:
 
    * [ApiDoc](http://apidocjs.com/#params)
    * [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
@@ -96,11 +99,26 @@ Available DocStyles and commands:
    * [XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
    * [YuiDoc](http://yui.github.io/yuidoc)
 
-You can get a list of them by pressing <kbd>@</kbd> and, according your sublime text settings, a list will pop up automatically.
+Only commands matching your configured doc-styles are suggested.
+
+For example, to get the list of possibles commands, press ``@``.
+Then, press |Ctrl+Space| to display the completion list.
+
+|Ctrl+Space| is optional but Sublime Text defaults settings deactivate
+completion in comment (see ``auto_complete_selector`` settings).
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif "Support completion")
 
-As you can see on previous example, pressing <kbd>Enter</kbd> consecutively would automatically continue the comment.
+#### Comment continuation
+
+
+As you can see on previous example, pressing <kbd>Enter</kbd> consecutively would
+automatically continue the comment.
+
+> On single line comment, comment continuation may appear as strange on the
+> last line comment (``///``). The behavior is optional (see parameter
+> ``continuation_on_last_comment``). If activated, you can press
+> |Shift+Enter| to stop continuation.
 
 ### Navigate in documentation
 
@@ -123,6 +141,12 @@ On OS/X:
    * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif "Comment folding")
+
+### Translate
+
+To translate selections, go to the Command Palette (|Ctrl+Shift+P|), then select
+``DoxyDoxygen: Translate`` or ``DoxyDoxygen: Translate To`` to translate them.
+
 
 ## Tips / FAQ
 
@@ -200,7 +224,7 @@ Here's an example illustrating most of the features outlined above:
                ]
            },
 
-           // Autofill description for getters
+           // Auto-fill description for getters
            {
                "tags": [
                    "@brief            Get {name:doxy_words(1,);doxy_lower();}",
