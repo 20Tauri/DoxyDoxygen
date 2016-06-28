@@ -1,54 +1,41 @@
-## Welcome to DoxyDoxygen
+Welcome to DoxyDoxygen
+======================
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/first_word.gif)
 
-DoxyDoxygen is a plug-in for Sublime Text that aims to save a lot of time and effort when creating and updating documentation comments in source code.
+DoxyDoxygen is a plug-in for [Sublime Text](https://www.sublimetext.com) that aims to save a lot of time and effort when creating and updating documentation comments in source code.
 
-How does it work ?
+How does it work ?
+-   Write your code
+-   Press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X), code is parsed and a skeleton documentation is written for you
+-   Update your code
+-   Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
 
-   * Write code
-   * Press <kbd>Alt</kbd>+<kbd>Q</kbd> (+<kbd>Super</kbd> on OS/X), code is parsed and a skeleton documentation is written for you
-   * Update your code
-   * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
+DoxyDoxygen can be easily configured to suit your needs.
+-   no matter your programming language 
+-   no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](http://www.stack.nl/~dimitri/doxygen/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](http://usejsdoc.org), [PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
+-   no matter your comment style : `/**`, `///`...
+-   no matter your preferred layout for tags...
 
-DoxyDoxygen supports a wide range of languages as well as many documentation comment formats and styles. If the default settings are not exactly as you require, it can be easily configured to suit your needs.
+Documentation is generated... Descriptions are written in your native language ...
 
-   * [ApiDoc]
-   * [AsDoc]
-   * [Doxygen]
-   * [Google Closure]
-   * [JavaDoc]
-   * [JsDoc]
-   * [PhpDocumentor]
-   * 
-   * [SassDoc]
-   * [Sphinx]
-   * [XmlDoc]
-   * [YuiDoc]
-   * ...
-   * configurable styles,
-   * auto-filled descriptions,
-   * auto-translated descriptions,
-   * on demand translation,
-   * [more than 40 programming languages](https://github.com/20Tauri/DoxyDoxygen/blob/master/COMPARE.md#supported-languages)
-   * plug-ins (see [HeaderDoc example](https://github.com/20Tauri/DoxyDoxygen_contrib_HeaderDoc))...
+Usage
+=====
 
-## Usage
+Create a documentation block
+----------------------------
 
-### Create a documentation block
+Start a documentation block (usually `/**`) before a declaration, then press <kbd>Enter</kbd>. The corresponding documentation will automatically be inserted. There are no keyboard shortcuts to memorize.
 
-Insert a Doxygen comment (ex: `##` for python) before a declaration, then press <kbd>Enter</kbd>. The corresponding documentation will automatically inserted. There are no keyboard shortcuts to memorize.
-
-To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X) after the function definition.
-A documentation block is written for you.
+To be more efficient, you may also press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X) after the function definition. A documentation block is written for you.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/python.gif "Support Python")
 
-Types are automatically deduced from code:
+Types are automatically deduced from the code:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/javascript.gif "Guess types")
 
-Even hard to parse languages are well supported:
+Even difficult to analyze programming languages are properly supported:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/function.gif "Support C++")
 
@@ -60,241 +47,150 @@ And, of course, classes (with template or not) are also supported.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/templateclass.gif "Document class")
 
-### Update / Wrap an existing documentation block
+Update / wrap an existing documentation block
+---------------------------------------------
 
-To wrap comment, press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS/X).
-As DoxyDoxygen knows the Doxygen commands, no invalid line break will be inserted.
+To update a comment, press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X). As DoxyDoxygen knows the Doxygen commands, no invalid line break will be inserted.
 
-Even better: with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also updates the documented object and detect missing/renamed/moved parameters:
+Even better, with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also reexamine the documented object and detects missing, renamed or moved parameters:
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/reformat_advanced.gif "Update existing comment")
 
-### Switch between commenting styles
+DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are kept. A valid list item is a line that start with `-#`, `-`, `+` or `*`.
 
-To switch between your preferred commenting styles, press <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> on OS/X).
+``` sourceCode
+/**
+ * @return Error code
+ *           - E_OK
+ *           - E_ACCESS_DENIED
+ *           - E_INTERNAL
+ */
+```
+
+``` sourceCode
+/**
+ * @return Error code:
+ *           E_OK
+ *           E_ACCESS_DENIED
+ *           E_INTERNAL
+ */
+
+/**
+ * @return Error code: E_OK E_ACCESS_DENIED E_INTERNAL
+ */
+```
+
+Switch between comment styles
+-----------------------------
+
+To switch between your preferred comment styles, press <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X).
 
 You can also find more flexible commands in the Command Palette.
 
-### Generate documentation
+Extend a documentation block
+----------------------------
 
-If you use Doxygen, you can generate your documentation directly from the palette.
-An assistant will help you to download tools and configure your project.
-
-### Extend a documentation block
-
-#### Auto-completion
+### Auto-completion
 
 DoxyDoxygen allows auto-completion. A large set of commands is available,
 
-Available commands depends of :term:`doc-style`:
-
-   * [ApiDoc](http://apidocjs.com/#params)
-   * [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
-   * [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
-   * [Google Closure Compiler](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
-   * [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
-   * [JsDoc](http://usejsdoc.org/).
-   * [PhpDocumentor](http://www.phpdoc.org/docs/latest/index.html)
-   * [Sphinx](http://sphinx-doc.org/markup/inline.html)
-   * [XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
-   * [YuiDoc](http://yui.github.io/yuidoc)
+Available commands depends of doc-style:
+-   [Commands list for ApiDoc](http://apidocjs.com/#params)
+-   [Commands list for AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
+-   [Commands list for Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html)
+-   [Commands list for Drupal Api Module](https://www.drupal.org/coding-standards/docs)
+-   [Commands list for Google Closure](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
+-   [Commands list for JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
+-   [Commands list for JsDoc](http://usejsdoc.org/)
+-   [Commands list for PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html)
+-   [Commands list for SassDoc](http://sassdoc.com/annotations/)
+-   [Commands list for Sphinx](http://sphinx-doc.org/markup/inline.html)
+-   [Commands list for XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
+-   [Commands list for YuiDoc](http://yui.github.io/yuidoc)
 
 Only commands matching your configured doc-styles are suggested.
 
-For example, to get the list of possibles commands, press ``@``.
-Then, press |Ctrl+Space| to display the completion list.
+For example, to get the list of available commands, press `@`. Then, press <kbd>Ctrl</kbd>+<kbd>Space</kbd> to display the completion list.
 
-|Ctrl+Space| is optional but Sublime Text defaults settings deactivate
-completion in comment (see ``auto_complete_selector`` settings).
+<kbd>Ctrl</kbd>+<kbd>Space</kbd> is optional, but Sublime Text defaults settings deactivate completion in comment (see `auto_complete_selector` settings).
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/dox.gif "Support completion")
 
-#### Comment continuation
+### Comment continuation
 
+As you can see on previous example, pressing <kbd>Enter</kbd> consecutively automatically continues the comment.
 
-As you can see on previous example, pressing <kbd>Enter</kbd> consecutively would
-automatically continue the comment.
+> **warning**
+>
+> On single line comment, comment continuation may appear as strange on the last line comment (`///`). The behavior is optional (see parameter `continuation_on_last_comment`). If activated, you can press <kbd>Shift</kbd>+<kbd>Enter</kbd> to stop continuation.
 
-> On single line comment, comment continuation may appear as strange on the
-> last line comment (``///``). The behavior is optional (see parameter
-> ``continuation_on_last_comment``). If activated, you can press
-> |Shift+Enter| to stop continuation.
+Navigate in documentation
+-------------------------
 
-### Navigate in documentation
+### Move to the right column
 
-To ease navigation, pressing <kbd>EOL</kbd> (<kbd>Super</kbd>+<kbd>Right</kbd> on OS/X) on end-of-line, will go to the next column.
+To ease navigation, press Eol (<kbd>Super</kbd>+<kbd>Right</kbd> on OS X) on end-of-line to go to the next column.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/eol.gif "Intelligent move")
 
-### Fold / Unfold comments
+### Follow references
 
-You can Fold / Unfold comments blocks from the command palette or using Sublime Text standard shortcuts.
+> **warning**
+>
+> Doxygen file only (`.dox`)
+
+You can move from a `@ref` tag to the referenced page or section using the `goto_definition` command (press <kbd>F12</kbd> using Sublime Text default key bindings)
+
+Fold / Unfold comments
+----------------------
+
+You can Fold / Unfold comments blocks from the Command Palette or using Sublime Text standard shortcuts.
 
 On Windows and Linux:
+-   Ctrl+Shift+\[: Fold
+-   Ctrl+Shift+\]: Unfold
 
-   * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>: Fold
-   * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>: Unfold
-
-On OS/X:
-
-   * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd>: Fold
-   * <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd>: Unfold
+On OS X:
+-   Super+Alt+\[: Fold
+-   Super+Alt+\]: Unfold
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif "Comment folding")
 
-### Translate
+Translate
+---------
 
-To translate selections, go to the Command Palette (|Ctrl+Shift+P|), then select
-``DoxyDoxygen: Translate`` or ``DoxyDoxygen: Translate To`` to translate them.
+> **warning**
+>
+> Translations use network service. If you are behind a proxy, don't forget to configure it before using those features.
+
+To translate selections, go to the Command Palette (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>), then select DoxyDoxygen: Translate or DoxyDoxygen: Translate To to translate them.
+
+> **tip**
+>
+> If a cursor is in a comment block (without selection), all descriptions of this comment will be translated.
+
+Generate documentation
+----------------------
+
+If you use Doxygen, you can generate your documentation directly from the Command Palette. An assistant will help you to download tools and configure your project.
+
+> **tip**
+>
+> If you want to include it in your build chain, you can call this command from the command-line .
 
 
-## Tips / FAQ
 
-##### Is it possible to disable default parameter description ?
+Tips / FAQ / Customization...
+-----------------------------
 
-To disable autofill, update your configuration file with one of the following line
-   - to disable the default rules:  `"autofill_rules_default": [],`
-   - to disable all rules: `"autofill_reliability_percentage": 0, `
+Please [visit the official web-site for further informations](http://20tauri.free.fr/DoxyDoxygen).
 
-If you prefer to have no description, you can try:
 
-```javascript
-    "autofill_rules": [
-        {
-            "parameter_description": [
-                "."
-            ]
-        }
-    ],
-```
+License
+-------
 
-##### How can I switch to a different "preferred_comment_style" ?
-
-See section "Switch between commenting styles".
-
-Alternativly, on comment creation (<kbd>Enter</kbd>), DoxyDoxygen use the first preferred style that match the language. To use a specific comment style, you have to start your comment style (ex: '// ='), then press <kbd>Alt</kbd>+<kbd>Q</kbd>.
-
-> _Note:_ For block style, you have to close it before pressing <kbd>Alt</kbd>+<kbd>Q</kbd> in it.
-
-##### How to avoid comment continuation ?
-
-Comment continuation is optional (parameter `continuation_on_last_comment`), but if activated, you can press <kbd>Shift</kbd>+<kbd>Return</kbd> to stop continuation.
-
-##### Is it possible to add tags dynamically ?
-
-Since version 0.27, `block_layout` parameter may be context dependent. To set up a context dependent, you have to define a list of dictionaries.
-
-Each dictionary should have two keys:
-
-   * `tags` (same format a if it's an array of string)
-   * `context` similar to `sublime text context format
-
-Each context, is a list of conditions. Each condition is composed by
-
-   * `key`: Name of a context operand to query. May be one of:
-      * `kind`
-         * "function", "lambda", "generator", "constructor",
-         * "class", "struct", "union", "enum"
-         * "var", "constant"
-      * `name`
-      * `nb_params` (only for "function", "lambda"...)
-      * `nb_tparams`
-      * `row`
-      * `col`
-   * `operator`: Type of test to perform against `key`. May be one of:
-      * `regex_match`
-      * `equal`
-      * `not_equal`
-      * `greater_than`
-      * `lower_than`
-      * `regex_contains`
-   * `operand`: Value against which the result of `key` is tested.
-
-Here's an example illustrating most of the features outlined above:
-```
-    "block_layout": {
-        "Doxygen": [
-           {
-               "tags": [
-                   "@brief            I'm the {name} class"
-               ],
-               "context": [
-                   { "key": "name",      "operator": "regex_match",    "operand": "^_.*$" },
-                   { "key": "kind",      "operator": "equal",          "operand": "class" }
-               ]
-           },
-
-           // Auto-fill description for getters
-           {
-               "tags": [
-                   "@brief            Get {name:doxy_words(1,);doxy_lower();}",
-                   "@return           {name:doxy_words(1,);doxy_capitalize();}"
-               ],
-               "context": [
-                   { "key": "name",      "operator": "regex_match",          "operand": "get[A-Z_].*" },
-               ]
-           },
-
-           // File Header integration
-           {
-               "tags": [
-                   "@brief            I'm a file header and my name is {file_base_name}",
-                   "",
-                   "@author           {user_name}",
-                   "",
-                   "@date             {now:%d-%b-%Y}"
-               ],
-               "context": [
-                   { "key": "row",      "operator": "equal",          "operand": "0" },
-                   { "key": "kind",     "operator": "equal",          "operand": "" }
-               ]
-           },
-
-           // Compact style if there's less than one parameter
-           {
-               "tags": [
-                   "@brief",
-                   "@param",
-                   "@tparam",
-                   "@return",
-                   ""
-               ],
-               "context": [
-                   { "key": "nb_params", "operator": "lower_than",     "operand": "2" }
-               ]
-           }
-
-           // You don't have to be exhaustive.
-           // If no rule match, 'block_layout_default' is considered
-       ]
-   }
-```
-
-[ApiDoc]: http://apidocjs.com/
-[AsDoc]: http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html
-[DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen
-[Doxygen]: http://www.stack.nl/~dimitri/doxygen/
-[Google Closure]: https://developers.google.com/closure/compiler/
-[JavaDoc]: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html
-[JsDoc]: http://usejsdoc.org
-[PhpDocumentor]: http://www.phpdoc.org/docs/latest/index.html
-[SassDoc]: http://sassdoc.com/
-[Sphinx]: http://sphinx-doc.org/
-[XmlDoc]: http://www.ecma-international.org/publications/standards/Ecma-334.htm
-[YuiDoc]: http://yui.github.io/yuidoc
-[NaturalDocs]: http://www.naturaldocs.org/documenting/reference.html#PageTitles
-
-## Survey
-
-To help to improve this software, I need to know your needs... Here, you can find some surveys:
-
-   * [general survey](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=4cb7c9c).
-   * [about auto-filled description](http://20tauri.free.fr/DoxyDoxygen/survey/index.php?survey=21232f297a57a5a743894a0e4a801fc3-33f3d2a).
-
-## License
-
-DoxyDoxygen may be downloaded and evaluated for free, however a license must be purchased for continued use. See
-[End User License Agreement](http://20tauri.free.fr/DoxyDoxygen/#page_eula) for further informations.
+DoxyDoxygen may be downloaded and evaluated for free, however a license must be purchased for continued use.
+See [End User License Agreement](http://20tauri.free.fr/DoxyDoxygen/#page_eula) for further informations.
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXEEET3XT3VYG)
 
