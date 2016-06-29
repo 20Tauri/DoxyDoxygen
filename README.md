@@ -6,16 +6,16 @@ Welcome to DoxyDoxygen
 DoxyDoxygen is a plug-in for [Sublime Text](https://www.sublimetext.com) that aims to save a lot of time and effort when creating and updating documentation comments in source code.
 
 How does it work ?
--   Write your code
--   Press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X), code is parsed and a skeleton documentation is written for you
--   Update your code
--   Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
+   * Write your code
+   * Press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X), code is parsed and a skeleton documentation is written for you
+   * Update your code
+   * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
 
 DoxyDoxygen can be easily configured to suit your needs.
--   no matter your programming language 
--   no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](http://www.stack.nl/~dimitri/doxygen/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](http://usejsdoc.org), [PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
--   no matter your comment style : `/**`, `///`...
--   no matter your preferred layout for tags...
+   * no matter your programming language 
+   * no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](http://www.stack.nl/~dimitri/doxygen/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](http://usejsdoc.org), [PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
+   * no matter your comment style : `/**`, `///`...
+   * no matter your preferred layout for tags...
 
 Documentation is generated... Descriptions are written in your native language ...
 
@@ -58,7 +58,7 @@ Even better, with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also reexamine t
 
 DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are kept. A valid list item is a line that start with `-#`, `-`, `+` or `*`.
 
-``` sourceCode
+```
 /**
  * @return Error code
  *           - E_OK
@@ -67,7 +67,7 @@ DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are 
  */
 ```
 
-``` sourceCode
+```
 /**
  * @return Error code:
  *           E_OK
@@ -95,18 +95,18 @@ Extend a documentation block
 DoxyDoxygen allows auto-completion. A large set of commands is available,
 
 Available commands depends of doc-style:
--   [Commands list for ApiDoc](http://apidocjs.com/#params)
--   [Commands list for AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
--   [Commands list for Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html)
--   [Commands list for Drupal Api Module](https://www.drupal.org/coding-standards/docs)
--   [Commands list for Google Closure](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
--   [Commands list for JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
--   [Commands list for JsDoc](http://usejsdoc.org/)
--   [Commands list for PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html)
--   [Commands list for SassDoc](http://sassdoc.com/annotations/)
--   [Commands list for Sphinx](http://sphinx-doc.org/markup/inline.html)
--   [Commands list for XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
--   [Commands list for YuiDoc](http://yui.github.io/yuidoc)
+   * [Commands list for ApiDoc](http://apidocjs.com/#params)
+   * [Commands list for AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
+   * [Commands list for Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html)
+   * [Commands list for Drupal Api Module](https://www.drupal.org/coding-standards/docs)
+   * [Commands list for Google Closure](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
+   * [Commands list for JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
+   * [Commands list for JsDoc](http://usejsdoc.org/)
+   * [Commands list for PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html)
+   * [Commands list for SassDoc](http://sassdoc.com/annotations/)
+   * [Commands list for Sphinx](http://sphinx-doc.org/markup/inline.html)
+   * [Commands list for XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
+   * [Commands list for YuiDoc](http://yui.github.io/yuidoc)
 
 Only commands matching your configured doc-styles are suggested.
 
@@ -129,7 +129,7 @@ Navigate in documentation
 
 ### Move to the right column
 
-To ease navigation, press Eol (<kbd>Super</kbd>+<kbd>Right</kbd> on OS X) on end-of-line to go to the next column.
+To ease navigation, press <kbd>End</kbd> (<kbd>Super</kbd>+<kbd>Right</kbd> on OS X) on end-of-line to go to the next column.
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/eol.gif "Intelligent move")
 
@@ -147,12 +147,12 @@ Fold / Unfold comments
 You can Fold / Unfold comments blocks from the Command Palette or using Sublime Text standard shortcuts.
 
 On Windows and Linux:
--   Ctrl+Shift+\[: Fold
--   Ctrl+Shift+\]: Unfold
+   * Ctrl+Shift+\[: Fold
+   * Ctrl+Shift+\]: Unfold
 
 On OS X:
--   Super+Alt+\[: Fold
--   Super+Alt+\]: Unfold
+   * Super+Alt+\[: Fold
+   * Super+Alt+\]: Unfold
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/fold.gif "Comment folding")
 
