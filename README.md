@@ -58,7 +58,9 @@ Even better, with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also reexamine t
 
 DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are kept. A valid list item is a line that start with `-#`, `-`, `+` or `*`.
 
-```
+*Example of valid list*
+
+```javascript
 /**
  * @return Error code
  *           - E_OK
@@ -67,7 +69,9 @@ DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are 
  */
 ```
 
-```
+*Incorrect list with the result after update*
+
+```javascript
 /**
  * @return Error code:
  *           E_OK
