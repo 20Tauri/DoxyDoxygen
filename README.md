@@ -58,8 +58,6 @@ Even better, with default settings, <kbd>Alt</kbd>+<kbd>Q</kbd> also reexamine t
 
 DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are kept. A valid list item is a line that start with `-#`, `-`, `+` or `*`.
 
-*Example of valid list*
-
 ```javascript
 /**
  * @return Error code
@@ -68,8 +66,6 @@ DoxyDoxygen preserves list with hierarchy. On update, spaces before an item are 
  *           - E_INTERNAL
  */
 ```
-
-*Incorrect list with the result after update*
 
 ```javascript
 /**
@@ -168,6 +164,8 @@ Translate
 > Translations use network service. If you are behind a proxy, don't forget to configure it before using those features.
 
 To translate selections, go to the Command Palette (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>), then select DoxyDoxygen: Translate or DoxyDoxygen: Translate To to translate them.
+
+![](http://20tauri.free.fr/DoxyDoxygen/v2/_images/scr_translate_to.gif)
 
 > **tip**
 >
