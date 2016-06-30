@@ -12,12 +12,12 @@ How does it work ?
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
 
 DoxyDoxygen can be easily configured to suit your needs.
-   * no matter your programming language 
+   * no matter your programming language
    * no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](http://www.stack.nl/~dimitri/doxygen/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](http://usejsdoc.org), [PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
    * no matter your comment style : `/**`, `///`...
    * no matter your preferred layout for tags...
 
-Documentation is generated... Descriptions are written in your native language ...
+Documentation is generated... Descriptions are written in your native language...
 
 Usage
 =====
@@ -144,7 +144,7 @@ You can move from a `@ref` tag to the referenced page or section using the `goto
 Fold / Unfold comments
 ----------------------
 
-You can Fold / Unfold comments blocks from the Command Palette or using Sublime Text standard shortcuts.
+You can Fold / Unfold comments blocks from the _Command Palette_ or using Sublime Text standard shortcuts.
 
 On Windows and Linux:
    * Ctrl+Shift+\[: Fold
@@ -163,7 +163,7 @@ Translate
 >
 > Translations use network service. If you are behind a proxy, don't forget to configure it before using those features.
 
-To translate selections, go to the Command Palette (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>), then select DoxyDoxygen: Translate or DoxyDoxygen: Translate To to translate them.
+To translate selections, go to the _Command Palette_ (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>), then select _DoxyDoxygen: Translate_ or _DoxyDoxygen: Translate_ To to translate them.
 
 ![](http://20tauri.free.fr/DoxyDoxygen/v2/_images/scr_translate_to.gif)
 
@@ -174,11 +174,11 @@ To translate selections, go to the Command Palette (<kbd>Ctrl</kbd>+<kbd>Shift</
 Generate documentation
 ----------------------
 
-If you use Doxygen, you can generate your documentation directly from the Command Palette. An assistant will help you to download tools and configure your project.
+If you use Doxygen, you can generate your documentation directly from the _Command Palette_. An assistant will help you to download tools and configure your project.
 
 > **tip**
 >
-> If you want to include it in your build chain, you can call this command from the command-line .
+> If you want to include it in your build chain, you can call this command from the command-line.
 
 
 

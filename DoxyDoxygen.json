@@ -1,4 +1,3 @@
-
 {
     "schema_version": "3.0.0",
 
@@ -27,7 +26,7 @@
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
-            "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
+            "buy": "http://20tauri.free.fr/DoxyDoxygen/v2/page_buy.php",
             "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
@@ -62,7 +61,7 @@
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
-            "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
+            "buy": "http://20tauri.free.fr/DoxyDoxygen/v2/page_buy.php",
             "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
             "previous_names": [],
             "labels": [
@@ -96,8 +95,8 @@
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
-            "buy": "http://20tauri.free.fr/DoxyDoxygen/#page_buy",
-            "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
+            "buy": "http://20tauri.free.fr/DoxyDoxygen/v2/page_buy.php",
+            "readme": "http://20tauri.free.fr/DoxyDoxygen/README.md",
             "previous_names": [],
             "labels": [
                 "documentation",
