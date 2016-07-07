@@ -1,17 +1,18 @@
-Welcome to DoxyDoxygen
-======================
+### Welcome to DoxyDoxygen
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/first_word.gif)
 
 DoxyDoxygen is a plug-in for [Sublime Text](https://www.sublimetext.com) that aims to save a lot of time and effort when creating and updating documentation comments in source code.
 
 How does it work ?
+
    * Write your code
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd> (or <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> on OS X), code is parsed and a skeleton documentation is written for you
    * Update your code
    * Press <kbd>Alt</kbd>+<kbd>Q</kbd>, documentation is updated
 
 DoxyDoxygen can be easily configured to suit your needs.
+
    * no matter your programming language
    * no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](http://www.stack.nl/~dimitri/doxygen/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](http://usejsdoc.org), [PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
    * no matter your comment style : `/**`, `///`...
@@ -22,7 +23,7 @@ Documentation is generated... Descriptions are written in your native language..
 And, reading this manual you will discover even more features like on demand translation...
 
 
-### Manual
+### User Guide
 
    * [Installation](http://20tauri.free.fr/DoxyDoxygen/v2/page_installation.php)
        * [Software installation with Package Control](http://20tauri.free.fr/DoxyDoxygen/v2/page_installation.php#software-installation-with-package-control)
