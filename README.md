@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/scr_first_word.gif)
 
-DoxyDoxygen is a plug-in for [Sublime Text](https://www.sublimetext.com) that aims to save a lot of time and effort when creating and updating documentation comments in source code.
+DoxyDoxygen is a plug-in for [Sublime Text](https://www.sublimetext.com) that aims to save a lot of time and efforts when creating and updating documentation comments in source code.
 
 How does it work ?
 
