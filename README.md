@@ -1,3 +1,7 @@
+
+:warning: If you have any problem to install/upgrade this plugin, please read the [Cannot Install topic](https://github.com/20Tauri/DoxyDoxygen/issues/103)
+
+
 ### Welcome to DoxyDoxygen
 
 ![](https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/images/scr_first_word.gif)
