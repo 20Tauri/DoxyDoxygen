@@ -22,7 +22,7 @@
 
         {
             "name": "DocBlockr_with_update_capability",
-            "description": "Update comments, i18n, more than 50 languages supported... If you have problem to install it please reade https://github.com/20Tauri/DoxyDoxygen/issues/103",
+            "description": "Create & Update comments, more than 50 languages supported, I18N... If you have problem to install it, please read https://github.com/20Tauri/DoxyDoxygen/issues/103",
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
