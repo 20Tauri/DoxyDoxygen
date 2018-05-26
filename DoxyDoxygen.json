@@ -21,41 +21,6 @@
         },
 
         {
-            "name": "DocBlockr_with_update_capability",
-            "description": "Create & Update comments, more than 50 languages supported, I18N... If you have problem to install it, please read https://github.com/20Tauri/DoxyDoxygen/issues/103",
-            "author": "20Tauri",
-            "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
-            "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
-            "buy": "http://20tauri.free.fr/DoxyDoxygen/v2/page_buy.php",
-            "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
-            "previous_names": [],
-            "labels": [
-                "documentation",
-                "comments",
-                "auto-complete",
-                "snippets",
-                "translate",
-                "formatting"
-            ],
-            "releases": [
-                {
-                    "platforms": [ "*" ],
-                    "sublime_text": "<3000",
-                    "version": "0.65.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.65.2/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2018-04-21 07:25:58"
-                },
-                {
-                    "platforms": [ "*" ],
-                    "sublime_text": ">=3000",
-                    "version": "0.65.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.65.2/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2018-04-21 07:25:58"
-                }
-            ]
-        },
-
-        {
             "name": "DoxyDoxygen",
             "description": "Make commenting easier. Supports Doxygen, JsDoc3, PhpDocumentor...",
             "author": "20Tauri",
@@ -63,7 +28,7 @@
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
             "buy": "http://20tauri.free.fr/DoxyDoxygen/v2/page_buy.php",
             "readme": "https://raw.githubusercontent.com/20Tauri/DoxyDoxygen/master/README.md",
-            "previous_names": [],
+            "previous_names": ["DocBlockr_with_update_capability"],
             "labels": [
                 "documentation",
                 "comments",
