@@ -22,7 +22,7 @@
 
         {
             "name": "DocBlockr with comments update",
-            "description": "Create, Update, Translate comments for 50+ languages and 15+ documenting styles (including Doxygen, JsDoc3, PhpDoc). This version of DoxyDoxygen includes some DocBlockr shortcuts that are not in the regular edition",
+            "description": "Create, Update, Translate comments for 50+ languages and 15+ documenting tools (including Doxygen, JsDoc3, PhpDoc). This version of DoxyDoxygen includes some DocBlockr shortcuts that are not in the regular edition.",
             "author": "20Tauri",
             "homepage": "http://20tauri.free.fr/DoxyDoxygen/",
             "issues": "https://github.com/20Tauri/DoxyDoxygen/issues",
@@ -41,16 +41,16 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.66.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.66.2/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2018-06-14 17:46:00"
+                    "version": "0.72.2",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.72.2/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2019-08-12 20:50:23"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
-                    "version": "0.66.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.66.2/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2018-06-14 17:46:00"
+                    "version": "0.72.2",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.72.2/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2019-08-12 20:50:23"
                 }
             ]
         },
