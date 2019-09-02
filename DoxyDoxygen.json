@@ -83,9 +83,9 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=3000",
-                    "version": "0.71.1",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.71.1/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2019-07-22 06:43:37"
+                    "version": "0.72.4",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.72.4/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2019-09-02 19:01:26"
                 }
             ]
         },
