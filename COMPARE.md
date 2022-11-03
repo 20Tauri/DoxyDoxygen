@@ -110,7 +110,7 @@
 [ApiDoc]: http://apidocjs.com/
 [AsDoc]: http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html
 [DoxyDoxygen]: https://github.com/20Tauri/DoxyDoxygen
-[Doxygen]: http://www.stack.nl/~dimitri/doxygen/
+[Doxygen]: http://www.doxygen.nl/
 [Google Closure]: https://developers.google.com/closure/compiler/
 [JavaDoc]: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html
 [JsDoc]: http://usejsdoc.org
