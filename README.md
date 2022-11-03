@@ -15,7 +15,7 @@ How does it work ?
 DoxyDoxygen can be easily configured to suit your needs.
 
    * no matter your programming language
-   * no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](http://www.stack.nl/~dimitri/doxygen/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](http://usejsdoc.org), [PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
+   * no matter your documentation generator : [ApiDoc](http://apidocjs.com/), [AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bb7b-7fe7.html), [Doxygen](https://www.doxygen.nl/), [Drupal Api Module](https://www.drupal.org/node/425940), [Google Closure](https://developers.google.com/closure/compiler/), [JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html), [JsDoc](https://devdocs.io/jsdoc), [PhpDocumentor](https://docs.phpdoc.org/index.html), [SassDoc](http://sassdoc.com/), [Sphinx](http://sphinx-doc.org/), [XmlDoc](http://www.ecma-international.org/publications/standards/Ecma-334.htm), [YuiDoc](http://yui.github.io/yuidoc)...
    * no matter your comment style : `/**`, `///`...
    * no matter your preferred layout for tags...
 
@@ -106,7 +106,7 @@ Available commands depends of doc-style:
 
    * [Commands list for ApiDoc](http://apidocjs.com/#params)
    * [Commands list for AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
-   * [Commands list for Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html)
+   * [Commands list for Doxygen](https://www.doxygen.nl/manual/commands.html)
    * [Commands list for Drupal Api Module](https://www.drupal.org/coding-standards/docs)
    * [Commands list for Google Closure](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
    * [Commands list for JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
@@ -114,7 +114,7 @@ Available commands depends of doc-style:
    * [Commands list for PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html)
    * [Commands list for SassDoc](http://sassdoc.com/annotations/)
    * [Commands list for Sphinx](http://sphinx-doc.org/markup/inline.html)
-   * [Commands list for XmlDoc](http://www.stack.nl/~dimitri/doxygen/manual/xmlcmds.html)
+   * [Commands list for XmlDoc](https://www.doxygen.nl/manual/xmlcmds.html)
    * [Commands list for YuiDoc](http://yui.github.io/yuidoc)
 
 Only commands matching your configured doc-styles are suggested.
