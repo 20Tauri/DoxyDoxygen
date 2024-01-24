@@ -117,23 +117,23 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "0.83.0",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.83.0/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2023-09-09 16:22:30"
+                    "version": "1.0.0",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.0/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2024-01-24 20:57:25"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "3000 - 3999",
-                    "version": "0.83.0",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.83.0/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2023-09-09 16:22:30"
+                    "version": "1.0.0",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.0/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2024-01-24 20:57:25"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": ">=4000",
-                    "version": "0.83.0",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/0.83.0/ST4_DoxyDoxygen.sublime-package",
-                    "date": "2023-09-09 16:22:30"
+                    "version": "1.0.0",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.0/ST4_DoxyDoxygen.sublime-package",
+                    "date": "2024-01-24 20:57:25"
                 }
             ]
         }
