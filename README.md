@@ -105,13 +105,13 @@ DoxyDoxygen allows auto-completion. A large set of commands is available,
 Available commands depends of doc-style:
 
    * [Commands list for ApiDoc](http://apidocjs.com/#params)
-   * [Commands list for AsDoc](http://help.adobe.com/en_US/flex/using/WSd0ded3821e0d52fe1e63e3d11c2f44bc36-7ff6.html)
+   * [Commands list for AsDoc](https://cwiki.apache.org/confluence/display/FLEX/ASDoc+tags)
    * [Commands list for Doxygen](https://www.doxygen.nl/manual/commands.html)
    * [Commands list for Drupal Api Module](https://www.drupal.org/coding-standards/docs)
    * [Commands list for Google Closure](https://developers.google.com/closure/compiler/docs/js-for-compiler?csw=1)
    * [Commands list for JavaDoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
-   * [Commands list for JsDoc](http://usejsdoc.org/)
-   * [Commands list for PhpDocumentor](https://www.phpdoc.org/docs/latest/index.html)
+   * [Commands list for JsDoc](https://jsdoc.app/)
+   * [Commands list for PhpDocumentor](https://docs.phpdoc.org/guide/references/phpdoc/index.html#phpdoc-reference)
    * [Commands list for SassDoc](http://sassdoc.com/annotations/)
    * [Commands list for Sphinx](http://sphinx-doc.org/markup/inline.html)
    * [Commands list for XmlDoc](https://www.doxygen.nl/manual/xmlcmds.html)
