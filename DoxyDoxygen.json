@@ -124,30 +124,30 @@
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "<3000",
-                    "version": "1.0.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.2/ST2_DoxyDoxygen.sublime-package",
-                    "date": "2024-12-09 20:53:27"
+                    "version": "1.0.3",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST2_DoxyDoxygen.sublime-package",
+                    "date": "2026-10-05 19:27:36"
                 },
                 {
                     "platforms": [ "*" ],
                     "sublime_text": "3000 - 3999",
-                    "version": "1.0.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.2/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2024-12-09 20:53:27"
+                    "version": "1.0.3",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST3_DoxyDoxygen.sublime-package",
+                    "date": "2026-10-05 19:27:36"
                 },
                 {
                     "platforms": [ "*" ],
-                    "sublime_text": "4000 - 4200",
-                    "version": "1.0.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.2/ST4_DoxyDoxygen.sublime-package",
-                    "date": "2024-12-09 20:53:27"
+                    "sublime_text": "4000 - 4204",
+                    "version": "1.0.3",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST4000_DoxyDoxygen.sublime-package",
+                    "date": "2026-10-05 19:27:36"
                 },
                 {
                     "platforms": [ "*" ],
-                    "sublime_text": ">=4201",
-                    "version": "1.0.2",
-                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.2/ST3_DoxyDoxygen.sublime-package",
-                    "date": "2024-12-09 20:53:27"
+                    "sublime_text": ">=4205",
+                    "version": "1.0.3",
+                    "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST4205_DoxyDoxygen.sublime-package",
+                    "date": "2026-10-05 19:27:36"
                 }
             ]
         }
